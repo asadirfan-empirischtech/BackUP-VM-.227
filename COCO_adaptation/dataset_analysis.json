@@ -1,0 +1,4567 @@
+{
+  "metadata": {
+    "dataset_root": "/home/azureuser/Documents/COCO_adaptation/",
+    "annotation_files_found": [
+      "instances_train",
+      "instances_val",
+      "captions_train",
+      "captions_val",
+      "keypoints_train",
+      "keypoints_val"
+    ],
+    "annotation_files_missing": []
+  },
+  "instances": {
+    "train": {
+      "images": 118287,
+      "annotations": 860001,
+      "categories": 80,
+      "supercategories": {
+        "accessory": [
+          "backpack",
+          "handbag",
+          "suitcase",
+          "tie",
+          "umbrella"
+        ],
+        "animal": [
+          "bear",
+          "bird",
+          "cat",
+          "cow",
+          "dog",
+          "elephant",
+          "giraffe",
+          "horse",
+          "sheep",
+          "zebra"
+        ],
+        "appliance": [
+          "microwave",
+          "oven",
+          "refrigerator",
+          "sink",
+          "toaster"
+        ],
+        "electronic": [
+          "cell phone",
+          "keyboard",
+          "laptop",
+          "mouse",
+          "remote",
+          "tv"
+        ],
+        "food": [
+          "apple",
+          "banana",
+          "broccoli",
+          "cake",
+          "carrot",
+          "donut",
+          "hot dog",
+          "orange",
+          "pizza",
+          "sandwich"
+        ],
+        "furniture": [
+          "bed",
+          "chair",
+          "couch",
+          "dining table",
+          "potted plant",
+          "toilet"
+        ],
+        "indoor": [
+          "book",
+          "clock",
+          "hair drier",
+          "scissors",
+          "teddy bear",
+          "toothbrush",
+          "vase"
+        ],
+        "kitchen": [
+          "bottle",
+          "bowl",
+          "cup",
+          "fork",
+          "knife",
+          "spoon",
+          "wine glass"
+        ],
+        "outdoor": [
+          "bench",
+          "fire hydrant",
+          "parking meter",
+          "stop sign",
+          "traffic light"
+        ],
+        "person": [
+          "person"
+        ],
+        "sports": [
+          "baseball bat",
+          "baseball glove",
+          "frisbee",
+          "kite",
+          "skateboard",
+          "skis",
+          "snowboard",
+          "sports ball",
+          "surfboard",
+          "tennis racket"
+        ],
+        "vehicle": [
+          "airplane",
+          "bicycle",
+          "boat",
+          "bus",
+          "car",
+          "motorcycle",
+          "train",
+          "truck"
+        ]
+      },
+      "per_category": [
+        {
+          "rank": 1,
+          "category_id": 1,
+          "category_name": "person",
+          "supercategory": "person",
+          "count": 262465,
+          "percentage": 30.5192,
+          "crowd_count": 5212,
+          "avg_area_px2": 11177.12,
+          "avg_bbox_aspect_ratio": 0.7027
+        },
+        {
+          "rank": 2,
+          "category_id": 3,
+          "category_name": "car",
+          "supercategory": "vehicle",
+          "count": 43867,
+          "percentage": 5.1008,
+          "crowd_count": 334,
+          "avg_area_px2": 4635.54,
+          "avg_bbox_aspect_ratio": 1.6685
+        },
+        {
+          "rank": 3,
+          "category_id": 62,
+          "category_name": "chair",
+          "supercategory": "furniture",
+          "count": 38491,
+          "percentage": 4.4757,
+          "crowd_count": 418,
+          "avg_area_px2": 5683.71,
+          "avg_bbox_aspect_ratio": 1.1841
+        },
+        {
+          "rank": 4,
+          "category_id": 84,
+          "category_name": "book",
+          "supercategory": "indoor",
+          "count": 24715,
+          "percentage": 2.8738,
+          "crowd_count": 638,
+          "avg_area_px2": 3092.17,
+          "avg_bbox_aspect_ratio": 1.5164
+        },
+        {
+          "rank": 5,
+          "category_id": 44,
+          "category_name": "bottle",
+          "supercategory": "kitchen",
+          "count": 24342,
+          "percentage": 2.8305,
+          "crowd_count": 272,
+          "avg_area_px2": 2627.1,
+          "avg_bbox_aspect_ratio": 0.5104
+        },
+        {
+          "rank": 6,
+          "category_id": 47,
+          "category_name": "cup",
+          "supercategory": "kitchen",
+          "count": 20650,
+          "percentage": 2.4012,
+          "crowd_count": 76,
+          "avg_area_px2": 4625.64,
+          "avg_bbox_aspect_ratio": 0.9564
+        },
+        {
+          "rank": 7,
+          "category_id": 67,
+          "category_name": "dining table",
+          "supercategory": "furniture",
+          "count": 15714,
+          "percentage": 1.8272,
+          "crowd_count": 19,
+          "avg_area_px2": 69634.03,
+          "avg_bbox_aspect_ratio": 2.38
+        },
+        {
+          "rank": 8,
+          "category_id": 51,
+          "category_name": "bowl",
+          "supercategory": "kitchen",
+          "count": 14358,
+          "percentage": 1.6695,
+          "crowd_count": 35,
+          "avg_area_px2": 17008.41,
+          "avg_bbox_aspect_ratio": 1.7401
+        },
+        {
+          "rank": 9,
+          "category_id": 10,
+          "category_name": "traffic light",
+          "supercategory": "outdoor",
+          "count": 12884,
+          "percentage": 1.4981,
+          "crowd_count": 42,
+          "avg_area_px2": 1687.05,
+          "avg_bbox_aspect_ratio": 0.6774
+        },
+        {
+          "rank": 10,
+          "category_id": 31,
+          "category_name": "handbag",
+          "supercategory": "accessory",
+          "count": 12354,
+          "percentage": 1.4365,
+          "crowd_count": 12,
+          "avg_area_px2": 2933.18,
+          "avg_bbox_aspect_ratio": 0.7929
+        },
+        {
+          "rank": 11,
+          "category_id": 28,
+          "category_name": "umbrella",
+          "supercategory": "accessory",
+          "count": 11431,
+          "percentage": 1.3292,
+          "crowd_count": 166,
+          "avg_area_px2": 8495.52,
+          "avg_bbox_aspect_ratio": 2.0418
+        },
+        {
+          "rank": 12,
+          "category_id": 16,
+          "category_name": "bird",
+          "supercategory": "animal",
+          "count": 10806,
+          "percentage": 1.2565,
+          "crowd_count": 264,
+          "avg_area_px2": 5001.56,
+          "avg_bbox_aspect_ratio": 1.2903
+        },
+        {
+          "rank": 13,
+          "category_id": 9,
+          "category_name": "boat",
+          "supercategory": "vehicle",
+          "count": 10759,
+          "percentage": 1.251,
+          "crowd_count": 183,
+          "avg_area_px2": 8193.08,
+          "avg_bbox_aspect_ratio": 2.5926
+        },
+        {
+          "rank": 14,
+          "category_id": 8,
+          "category_name": "truck",
+          "supercategory": "vehicle",
+          "count": 9973,
+          "percentage": 1.1596,
+          "crowd_count": 3,
+          "avg_area_px2": 20121.23,
+          "avg_bbox_aspect_ratio": 1.6055
+        },
+        {
+          "rank": 15,
+          "category_id": 15,
+          "category_name": "bench",
+          "supercategory": "outdoor",
+          "count": 9838,
+          "percentage": 1.144,
+          "crowd_count": 18,
+          "avg_area_px2": 11581.95,
+          "avg_bbox_aspect_ratio": 2.5634
+        },
+        {
+          "rank": 16,
+          "category_id": 20,
+          "category_name": "sheep",
+          "supercategory": "animal",
+          "count": 9509,
+          "percentage": 1.1057,
+          "crowd_count": 286,
+          "avg_area_px2": 6839.39,
+          "avg_bbox_aspect_ratio": 1.3667
+        },
+        {
+          "rank": 17,
+          "category_id": 52,
+          "category_name": "banana",
+          "supercategory": "food",
+          "count": 9458,
+          "percentage": 1.0998,
+          "crowd_count": 263,
+          "avg_area_px2": 9151.6,
+          "avg_bbox_aspect_ratio": 1.2262
+        },
+        {
+          "rank": 18,
+          "category_id": 38,
+          "category_name": "kite",
+          "supercategory": "sports",
+          "count": 9076,
+          "percentage": 1.0553,
+          "crowd_count": 274,
+          "avg_area_px2": 2591.07,
+          "avg_bbox_aspect_ratio": 1.4341
+        },
+        {
+          "rank": 19,
+          "category_id": 4,
+          "category_name": "motorcycle",
+          "supercategory": "vehicle",
+          "count": 8725,
+          "percentage": 1.0145,
+          "crowd_count": 71,
+          "avg_area_px2": 17941.52,
+          "avg_bbox_aspect_ratio": 1.1008
+        },
+        {
+          "rank": 20,
+          "category_id": 27,
+          "category_name": "backpack",
+          "supercategory": "accessory",
+          "count": 8720,
+          "percentage": 1.014,
+          "crowd_count": 6,
+          "avg_area_px2": 3830.63,
+          "avg_bbox_aspect_ratio": 0.8982
+        },
+        {
+          "rank": 21,
+          "category_id": 64,
+          "category_name": "potted plant",
+          "supercategory": "furniture",
+          "count": 8652,
+          "percentage": 1.006,
+          "crowd_count": 21,
+          "avg_area_px2": 9272.53,
+          "avg_bbox_aspect_ratio": 0.9111
+        },
+        {
+          "rank": 22,
+          "category_id": 21,
+          "category_name": "cow",
+          "supercategory": "animal",
+          "count": 8147,
+          "percentage": 0.9473,
+          "crowd_count": 133,
+          "avg_area_px2": 10464.07,
+          "avg_bbox_aspect_ratio": 1.3602
+        },
+        {
+          "rank": 23,
+          "category_id": 46,
+          "category_name": "wine glass",
+          "supercategory": "kitchen",
+          "count": 7913,
+          "percentage": 0.9201,
+          "crowd_count": 74,
+          "avg_area_px2": 4201.34,
+          "avg_bbox_aspect_ratio": 0.6252
+        },
+        {
+          "rank": 24,
+          "category_id": 57,
+          "category_name": "carrot",
+          "supercategory": "food",
+          "count": 7852,
+          "percentage": 0.913,
+          "crowd_count": 94,
+          "avg_area_px2": 3679.28,
+          "avg_bbox_aspect_ratio": 1.3871
+        },
+        {
+          "rank": 25,
+          "category_id": 49,
+          "category_name": "knife",
+          "supercategory": "kitchen",
+          "count": 7770,
+          "percentage": 0.9035,
+          "crowd_count": 10,
+          "avg_area_px2": 2025.78,
+          "avg_bbox_aspect_ratio": 1.9879
+        },
+        {
+          "rank": 26,
+          "category_id": 56,
+          "category_name": "broccoli",
+          "supercategory": "food",
+          "count": 7308,
+          "percentage": 0.8498,
+          "crowd_count": 47,
+          "avg_area_px2": 9359.63,
+          "avg_bbox_aspect_ratio": 1.2127
+        },
+        {
+          "rank": 27,
+          "category_id": 60,
+          "category_name": "donut",
+          "supercategory": "food",
+          "count": 7179,
+          "percentage": 0.8348,
+          "crowd_count": 174,
+          "avg_area_px2": 9615.26,
+          "avg_bbox_aspect_ratio": 1.4176
+        },
+        {
+          "rank": 28,
+          "category_id": 2,
+          "category_name": "bicycle",
+          "supercategory": "vehicle",
+          "count": 7113,
+          "percentage": 0.8271,
+          "crowd_count": 57,
+          "avg_area_px2": 7414.13,
+          "avg_bbox_aspect_ratio": 1.0252
+        },
+        {
+          "rank": 29,
+          "category_id": 35,
+          "category_name": "skis",
+          "supercategory": "sports",
+          "count": 6646,
+          "percentage": 0.7728,
+          "crowd_count": 23,
+          "avg_area_px2": 1494.26,
+          "avg_bbox_aspect_ratio": 3.973
+        },
+        {
+          "rank": 30,
+          "category_id": 86,
+          "category_name": "vase",
+          "supercategory": "indoor",
+          "count": 6613,
+          "percentage": 0.769,
+          "crowd_count": 36,
+          "avg_area_px2": 8625.15,
+          "avg_bbox_aspect_ratio": 0.7201
+        },
+        {
+          "rank": 31,
+          "category_id": 19,
+          "category_name": "horse",
+          "supercategory": "animal",
+          "count": 6587,
+          "percentage": 0.7659,
+          "crowd_count": 20,
+          "avg_area_px2": 17176.89,
+          "avg_bbox_aspect_ratio": 1.0091
+        },
+        {
+          "rank": 32,
+          "category_id": 32,
+          "category_name": "tie",
+          "supercategory": "accessory",
+          "count": 6496,
+          "percentage": 0.7553,
+          "crowd_count": 48,
+          "avg_area_px2": 4004.51,
+          "avg_bbox_aspect_ratio": 0.574
+        },
+        {
+          "rank": 33,
+          "category_id": 77,
+          "category_name": "cell phone",
+          "supercategory": "electronic",
+          "count": 6434,
+          "percentage": 0.7481,
+          "crowd_count": 12,
+          "avg_area_px2": 5427.29,
+          "avg_bbox_aspect_ratio": 1.2548
+        },
+        {
+          "rank": 34,
+          "category_id": 55,
+          "category_name": "orange",
+          "supercategory": "food",
+          "count": 6399,
+          "percentage": 0.7441,
+          "crowd_count": 97,
+          "avg_area_px2": 7840.63,
+          "avg_bbox_aspect_ratio": 1.2497
+        },
+        {
+          "rank": 35,
+          "category_id": 61,
+          "category_name": "cake",
+          "supercategory": "food",
+          "count": 6353,
+          "percentage": 0.7387,
+          "crowd_count": 57,
+          "avg_area_px2": 21027.22,
+          "avg_bbox_aspect_ratio": 1.4549
+        },
+        {
+          "rank": 36,
+          "category_id": 37,
+          "category_name": "sports ball",
+          "supercategory": "sports",
+          "count": 6347,
+          "percentage": 0.738,
+          "crowd_count": 48,
+          "avg_area_px2": 813.64,
+          "avg_bbox_aspect_ratio": 1.0946
+        },
+        {
+          "rank": 37,
+          "category_id": 85,
+          "category_name": "clock",
+          "supercategory": "indoor",
+          "count": 6334,
+          "percentage": 0.7365,
+          "crowd_count": 14,
+          "avg_area_px2": 6535.58,
+          "avg_bbox_aspect_ratio": 0.9746
+        },
+        {
+          "rank": 38,
+          "category_id": 33,
+          "category_name": "suitcase",
+          "supercategory": "accessory",
+          "count": 6192,
+          "percentage": 0.72,
+          "crowd_count": 80,
+          "avg_area_px2": 16803.59,
+          "avg_bbox_aspect_ratio": 1.1888
+        },
+        {
+          "rank": 39,
+          "category_id": 50,
+          "category_name": "spoon",
+          "supercategory": "kitchen",
+          "count": 6165,
+          "percentage": 0.7169,
+          "crowd_count": 6,
+          "avg_area_px2": 1711.15,
+          "avg_bbox_aspect_ratio": 1.6386
+        },
+        {
+          "rank": 40,
+          "category_id": 42,
+          "category_name": "surfboard",
+          "supercategory": "sports",
+          "count": 6126,
+          "percentage": 0.7123,
+          "crowd_count": 31,
+          "avg_area_px2": 6218.34,
+          "avg_bbox_aspect_ratio": 2.97
+        },
+        {
+          "rank": 41,
+          "category_id": 6,
+          "category_name": "bus",
+          "supercategory": "vehicle",
+          "count": 6069,
+          "percentage": 0.7057,
+          "crowd_count": 8,
+          "avg_area_px2": 40215.64,
+          "avg_bbox_aspect_ratio": 1.456
+        },
+        {
+          "rank": 42,
+          "category_id": 53,
+          "category_name": "apple",
+          "supercategory": "food",
+          "count": 5851,
+          "percentage": 0.6803,
+          "crowd_count": 75,
+          "avg_area_px2": 6798.98,
+          "avg_bbox_aspect_ratio": 1.2946
+        },
+        {
+          "rank": 43,
+          "category_id": 59,
+          "category_name": "pizza",
+          "supercategory": "food",
+          "count": 5821,
+          "percentage": 0.6769,
+          "crowd_count": 14,
+          "avg_area_px2": 46061.19,
+          "avg_bbox_aspect_ratio": 1.9316
+        },
+        {
+          "rank": 44,
+          "category_id": 72,
+          "category_name": "tv",
+          "supercategory": "electronic",
+          "count": 5805,
+          "percentage": 0.675,
+          "crowd_count": 2,
+          "avg_area_px2": 19209.33,
+          "avg_bbox_aspect_ratio": 1.1837
+        },
+        {
+          "rank": 45,
+          "category_id": 63,
+          "category_name": "couch",
+          "supercategory": "furniture",
+          "count": 5779,
+          "percentage": 0.672,
+          "crowd_count": 0,
+          "avg_area_px2": 33471.87,
+          "avg_bbox_aspect_ratio": 1.5481
+        },
+        {
+          "rank": 46,
+          "category_id": 75,
+          "category_name": "remote",
+          "supercategory": "electronic",
+          "count": 5703,
+          "percentage": 0.6631,
+          "crowd_count": 3,
+          "avg_area_px2": 3204.14,
+          "avg_bbox_aspect_ratio": 1.6522
+        },
+        {
+          "rank": 47,
+          "category_id": 81,
+          "category_name": "sink",
+          "supercategory": "appliance",
+          "count": 5610,
+          "percentage": 0.6523,
+          "crowd_count": 1,
+          "avg_area_px2": 9896.82,
+          "avg_bbox_aspect_ratio": 3.0381
+        },
+        {
+          "rank": 48,
+          "category_id": 41,
+          "category_name": "skateboard",
+          "supercategory": "sports",
+          "count": 5543,
+          "percentage": 0.6445,
+          "crowd_count": 7,
+          "avg_area_px2": 3609.73,
+          "avg_bbox_aspect_ratio": 2.0359
+        },
+        {
+          "rank": 49,
+          "category_id": 22,
+          "category_name": "elephant",
+          "supercategory": "animal",
+          "count": 5513,
+          "percentage": 0.641,
+          "crowd_count": 29,
+          "avg_area_px2": 27547.49,
+          "avg_bbox_aspect_ratio": 1.1161
+        },
+        {
+          "rank": 50,
+          "category_id": 18,
+          "category_name": "dog",
+          "supercategory": "animal",
+          "count": 5508,
+          "percentage": 0.6405,
+          "crowd_count": 8,
+          "avg_area_px2": 26998.2,
+          "avg_bbox_aspect_ratio": 1.159
+        },
+        {
+          "rank": 51,
+          "category_id": 48,
+          "category_name": "fork",
+          "supercategory": "kitchen",
+          "count": 5479,
+          "percentage": 0.6371,
+          "crowd_count": 5,
+          "avg_area_px2": 2176.39,
+          "avg_bbox_aspect_ratio": 1.8915
+        },
+        {
+          "rank": 52,
+          "category_id": 24,
+          "category_name": "zebra",
+          "supercategory": "animal",
+          "count": 5303,
+          "percentage": 0.6166,
+          "crowd_count": 34,
+          "avg_area_px2": 19432.59,
+          "avg_bbox_aspect_ratio": 1.1804
+        },
+        {
+          "rank": 53,
+          "category_id": 5,
+          "category_name": "airplane",
+          "supercategory": "vehicle",
+          "count": 5135,
+          "percentage": 0.5971,
+          "crowd_count": 6,
+          "avg_area_px2": 20179.11,
+          "avg_bbox_aspect_ratio": 2.5318
+        },
+        {
+          "rank": 54,
+          "category_id": 25,
+          "category_name": "giraffe",
+          "supercategory": "animal",
+          "count": 5131,
+          "percentage": 0.5966,
+          "crowd_count": 3,
+          "avg_area_px2": 20012.19,
+          "avg_bbox_aspect_ratio": 0.7479
+        },
+        {
+          "rank": 55,
+          "category_id": 73,
+          "category_name": "laptop",
+          "supercategory": "electronic",
+          "count": 4970,
+          "percentage": 0.5779,
+          "crowd_count": 10,
+          "avg_area_px2": 24734.79,
+          "avg_bbox_aspect_ratio": 1.4469
+        },
+        {
+          "rank": 56,
+          "category_id": 43,
+          "category_name": "tennis racket",
+          "supercategory": "sports",
+          "count": 4812,
+          "percentage": 0.5595,
+          "crowd_count": 5,
+          "avg_area_px2": 3929.76,
+          "avg_bbox_aspect_ratio": 1.1722
+        },
+        {
+          "rank": 57,
+          "category_id": 88,
+          "category_name": "teddy bear",
+          "supercategory": "indoor",
+          "count": 4793,
+          "percentage": 0.5573,
+          "crowd_count": 64,
+          "avg_area_px2": 21908.65,
+          "avg_bbox_aspect_ratio": 0.9444
+        },
+        {
+          "rank": 58,
+          "category_id": 17,
+          "category_name": "cat",
+          "supercategory": "animal",
+          "count": 4768,
+          "percentage": 0.5544,
+          "crowd_count": 2,
+          "avg_area_px2": 42475.91,
+          "avg_bbox_aspect_ratio": 1.2542
+        },
+        {
+          "rank": 59,
+          "category_id": 7,
+          "category_name": "train",
+          "supercategory": "vehicle",
+          "count": 4571,
+          "percentage": 0.5315,
+          "crowd_count": 1,
+          "avg_area_px2": 52722.99,
+          "avg_bbox_aspect_ratio": 2.3635
+        },
+        {
+          "rank": 60,
+          "category_id": 54,
+          "category_name": "sandwich",
+          "supercategory": "food",
+          "count": 4373,
+          "percentage": 0.5085,
+          "crowd_count": 17,
+          "avg_area_px2": 27653.05,
+          "avg_bbox_aspect_ratio": 1.3932
+        },
+        {
+          "rank": 61,
+          "category_id": 65,
+          "category_name": "bed",
+          "supercategory": "furniture",
+          "count": 4192,
+          "percentage": 0.4874,
+          "crowd_count": 0,
+          "avg_area_px2": 77344.73,
+          "avg_bbox_aspect_ratio": 1.847
+        },
+        {
+          "rank": 62,
+          "category_id": 70,
+          "category_name": "toilet",
+          "supercategory": "furniture",
+          "count": 4157,
+          "percentage": 0.4834,
+          "crowd_count": 8,
+          "avg_area_px2": 23927.63,
+          "avg_bbox_aspect_ratio": 0.8673
+        },
+        {
+          "rank": 63,
+          "category_id": 40,
+          "category_name": "baseball glove",
+          "supercategory": "sports",
+          "count": 3747,
+          "percentage": 0.4357,
+          "crowd_count": 0,
+          "avg_area_px2": 1734.48,
+          "avg_bbox_aspect_ratio": 1.0299
+        },
+        {
+          "rank": 64,
+          "category_id": 79,
+          "category_name": "oven",
+          "supercategory": "appliance",
+          "count": 3334,
+          "percentage": 0.3877,
+          "crowd_count": 0,
+          "avg_area_px2": 34605.82,
+          "avg_bbox_aspect_ratio": 1.2251
+        },
+        {
+          "rank": 65,
+          "category_id": 39,
+          "category_name": "baseball bat",
+          "supercategory": "sports",
+          "count": 3276,
+          "percentage": 0.3809,
+          "crowd_count": 3,
+          "avg_area_px2": 1440.34,
+          "avg_bbox_aspect_ratio": 1.5968
+        },
+        {
+          "rank": 66,
+          "category_id": 58,
+          "category_name": "hot dog",
+          "supercategory": "food",
+          "count": 2918,
+          "percentage": 0.3393,
+          "crowd_count": 34,
+          "avg_area_px2": 16499.42,
+          "avg_bbox_aspect_ratio": 1.7524
+        },
+        {
+          "rank": 67,
+          "category_id": 76,
+          "category_name": "keyboard",
+          "supercategory": "electronic",
+          "count": 2855,
+          "percentage": 0.332,
+          "crowd_count": 1,
+          "avg_area_px2": 15823.43,
+          "avg_bbox_aspect_ratio": 3.0241
+        },
+        {
+          "rank": 68,
+          "category_id": 36,
+          "category_name": "snowboard",
+          "supercategory": "sports",
+          "count": 2685,
+          "percentage": 0.3122,
+          "crowd_count": 4,
+          "avg_area_px2": 4348.22,
+          "avg_bbox_aspect_ratio": 3.0516
+        },
+        {
+          "rank": 69,
+          "category_id": 34,
+          "category_name": "frisbee",
+          "supercategory": "sports",
+          "count": 2682,
+          "percentage": 0.3119,
+          "crowd_count": 1,
+          "avg_area_px2": 3727.91,
+          "avg_bbox_aspect_ratio": 1.9152
+        },
+        {
+          "rank": 70,
+          "category_id": 82,
+          "category_name": "refrigerator",
+          "supercategory": "appliance",
+          "count": 2637,
+          "percentage": 0.3066,
+          "crowd_count": 3,
+          "avg_area_px2": 46092.44,
+          "avg_bbox_aspect_ratio": 0.6371
+        },
+        {
+          "rank": 71,
+          "category_id": 74,
+          "category_name": "mouse",
+          "supercategory": "electronic",
+          "count": 2262,
+          "percentage": 0.263,
+          "crowd_count": 1,
+          "avg_area_px2": 3192.74,
+          "avg_bbox_aspect_ratio": 1.5455
+        },
+        {
+          "rank": 72,
+          "category_id": 13,
+          "category_name": "stop sign",
+          "supercategory": "outdoor",
+          "count": 1983,
+          "percentage": 0.2306,
+          "crowd_count": 0,
+          "avg_area_px2": 17653.67,
+          "avg_bbox_aspect_ratio": 0.9069
+        },
+        {
+          "rank": 73,
+          "category_id": 90,
+          "category_name": "toothbrush",
+          "supercategory": "indoor",
+          "count": 1954,
+          "percentage": 0.2272,
+          "crowd_count": 9,
+          "avg_area_px2": 3066.76,
+          "avg_bbox_aspect_ratio": 1.2161
+        },
+        {
+          "rank": 74,
+          "category_id": 11,
+          "category_name": "fire hydrant",
+          "supercategory": "outdoor",
+          "count": 1865,
+          "percentage": 0.2169,
+          "crowd_count": 0,
+          "avg_area_px2": 18768.0,
+          "avg_bbox_aspect_ratio": 0.5673
+        },
+        {
+          "rank": 75,
+          "category_id": 78,
+          "category_name": "microwave",
+          "supercategory": "appliance",
+          "count": 1673,
+          "percentage": 0.1945,
+          "crowd_count": 1,
+          "avg_area_px2": 17869.76,
+          "avg_bbox_aspect_ratio": 1.4748
+        },
+        {
+          "rank": 76,
+          "category_id": 87,
+          "category_name": "scissors",
+          "supercategory": "indoor",
+          "count": 1481,
+          "percentage": 0.1722,
+          "crowd_count": 17,
+          "avg_area_px2": 7803.04,
+          "avg_bbox_aspect_ratio": 1.3493
+        },
+        {
+          "rank": 77,
+          "category_id": 23,
+          "category_name": "bear",
+          "supercategory": "animal",
+          "count": 1294,
+          "percentage": 0.1505,
+          "crowd_count": 0,
+          "avg_area_px2": 44350.15,
+          "avg_bbox_aspect_ratio": 1.1938
+        },
+        {
+          "rank": 78,
+          "category_id": 14,
+          "category_name": "parking meter",
+          "supercategory": "outdoor",
+          "count": 1285,
+          "percentage": 0.1494,
+          "crowd_count": 2,
+          "avg_area_px2": 17028.77,
+          "avg_bbox_aspect_ratio": 0.5432
+        },
+        {
+          "rank": 79,
+          "category_id": 80,
+          "category_name": "toaster",
+          "supercategory": "appliance",
+          "count": 225,
+          "percentage": 0.0262,
+          "crowd_count": 0,
+          "avg_area_px2": 8772.88,
+          "avg_bbox_aspect_ratio": 1.2326
+        },
+        {
+          "rank": 80,
+          "category_id": 89,
+          "category_name": "hair drier",
+          "supercategory": "indoor",
+          "count": 198,
+          "percentage": 0.023,
+          "crowd_count": 0,
+          "avg_area_px2": 5389.54,
+          "avg_bbox_aspect_ratio": 1.1058
+        }
+      ],
+      "size_distribution": {
+        "small": {
+          "threshold": "area < 1024 px\u00b2",
+          "count": 356340,
+          "percentage": 41.4348
+        },
+        "medium": {
+          "threshold": "area < 9216 px\u00b2",
+          "count": 295163,
+          "percentage": 34.3212
+        },
+        "large": {
+          "threshold": "area >= 9216 px\u00b2",
+          "count": 208498,
+          "percentage": 24.2439
+        }
+      },
+      "objects_per_image": {
+        "objs_per_img_count": 118287,
+        "objs_per_img_sum": 860001,
+        "objs_per_img_min": 0,
+        "objs_per_img_max": 93,
+        "objs_per_img_mean": 7.2705,
+        "objs_per_img_median": 4,
+        "objs_per_img_std": 7.3876,
+        "objs_per_img_p5": 1.0,
+        "objs_per_img_p25": 2.0,
+        "objs_per_img_p75": 10.0,
+        "objs_per_img_p95": 22.0,
+        "images_with_0_annotations": 1021
+      },
+      "objects_per_image_histogram": [
+        {
+          "range": "0.0\u20136.2",
+          "range_low": 0.0,
+          "range_high": 6.2,
+          "count": 74131
+        },
+        {
+          "range": "6.2\u201312.4",
+          "range_low": 6.2,
+          "range_high": 12.4,
+          "count": 21453
+        },
+        {
+          "range": "12.4\u201318.6",
+          "range_low": 12.4,
+          "range_high": 18.6,
+          "count": 12606
+        },
+        {
+          "range": "18.6\u201324.8",
+          "range_low": 18.6,
+          "range_high": 24.8,
+          "count": 5688
+        },
+        {
+          "range": "24.8\u201331.0",
+          "range_low": 24.8,
+          "range_high": 31.0,
+          "count": 2601
+        },
+        {
+          "range": "31.0\u201337.2",
+          "range_low": 31.0,
+          "range_high": 37.2,
+          "count": 1148
+        },
+        {
+          "range": "37.2\u201343.4",
+          "range_low": 37.2,
+          "range_high": 43.4,
+          "count": 369
+        },
+        {
+          "range": "43.4\u201349.6",
+          "range_low": 43.4,
+          "range_high": 49.6,
+          "count": 168
+        },
+        {
+          "range": "49.6\u201355.8",
+          "range_low": 49.6,
+          "range_high": 55.8,
+          "count": 79
+        },
+        {
+          "range": "55.8\u201362.0",
+          "range_low": 55.8,
+          "range_high": 62.0,
+          "count": 22
+        },
+        {
+          "range": "62.0\u201368.2",
+          "range_low": 62.0,
+          "range_high": 68.2,
+          "count": 13
+        },
+        {
+          "range": "68.2\u201374.4",
+          "range_low": 68.2,
+          "range_high": 74.4,
+          "count": 5
+        },
+        {
+          "range": "74.4\u201380.6",
+          "range_low": 74.4,
+          "range_high": 80.6,
+          "count": 3
+        },
+        {
+          "range": "80.6\u201386.8",
+          "range_low": 80.6,
+          "range_high": 86.8,
+          "count": 0
+        },
+        {
+          "range": "86.8\u201393.0",
+          "range_low": 86.8,
+          "range_high": 93.0,
+          "count": 1
+        }
+      ],
+      "bbox_area_stats": {
+        "bbox_area_count": 860001,
+        "bbox_area_sum": 10342252910.8069,
+        "bbox_area_min": 0.0,
+        "bbox_area_max": 787151.4766,
+        "bbox_area_mean": 12025.8615,
+        "bbox_area_median": 1697.0868,
+        "bbox_area_std": 29785.9502,
+        "bbox_area_p5": 59.4761,
+        "bbox_area_p25": 377.4281,
+        "bbox_area_p75": 8712.2902,
+        "bbox_area_p95": 61255.125
+      },
+      "crowd_annotations": {
+        "total": 10052,
+        "percentage": 1.1688
+      },
+      "top_20_cooccurrence": [
+        {
+          "category_a": "person",
+          "category_b": "car",
+          "images": 8519
+        },
+        {
+          "category_a": "person",
+          "category_b": "chair",
+          "images": 8035
+        },
+        {
+          "category_a": "person",
+          "category_b": "handbag",
+          "images": 6222
+        },
+        {
+          "category_a": "person",
+          "category_b": "dining table",
+          "images": 5869
+        },
+        {
+          "category_a": "chair",
+          "category_b": "dining table",
+          "images": 5124
+        },
+        {
+          "category_a": "person",
+          "category_b": "backpack",
+          "images": 5034
+        },
+        {
+          "category_a": "person",
+          "category_b": "cup",
+          "images": 4848
+        },
+        {
+          "category_a": "cup",
+          "category_b": "dining table",
+          "images": 4679
+        },
+        {
+          "category_a": "person",
+          "category_b": "bottle",
+          "images": 4561
+        },
+        {
+          "category_a": "person",
+          "category_b": "bench",
+          "images": 4108
+        },
+        {
+          "category_a": "person",
+          "category_b": "sports ball",
+          "images": 4097
+        },
+        {
+          "category_a": "person",
+          "category_b": "truck",
+          "images": 3992
+        },
+        {
+          "category_a": "person",
+          "category_b": "cell phone",
+          "images": 3830
+        },
+        {
+          "category_a": "car",
+          "category_b": "truck",
+          "images": 3664
+        },
+        {
+          "category_a": "person",
+          "category_b": "tie",
+          "images": 3632
+        },
+        {
+          "category_a": "person",
+          "category_b": "umbrella",
+          "images": 3447
+        },
+        {
+          "category_a": "person",
+          "category_b": "skateboard",
+          "images": 3417
+        },
+        {
+          "category_a": "bowl",
+          "category_b": "dining table",
+          "images": 3396
+        },
+        {
+          "category_a": "person",
+          "category_b": "surfboard",
+          "images": 3365
+        },
+        {
+          "category_a": "person",
+          "category_b": "tennis racket",
+          "images": 3361
+        }
+      ]
+    },
+    "val": {
+      "images": 5000,
+      "annotations": 36781,
+      "categories": 80,
+      "supercategories": {
+        "accessory": [
+          "backpack",
+          "handbag",
+          "suitcase",
+          "tie",
+          "umbrella"
+        ],
+        "animal": [
+          "bear",
+          "bird",
+          "cat",
+          "cow",
+          "dog",
+          "elephant",
+          "giraffe",
+          "horse",
+          "sheep",
+          "zebra"
+        ],
+        "appliance": [
+          "microwave",
+          "oven",
+          "refrigerator",
+          "sink",
+          "toaster"
+        ],
+        "electronic": [
+          "cell phone",
+          "keyboard",
+          "laptop",
+          "mouse",
+          "remote",
+          "tv"
+        ],
+        "food": [
+          "apple",
+          "banana",
+          "broccoli",
+          "cake",
+          "carrot",
+          "donut",
+          "hot dog",
+          "orange",
+          "pizza",
+          "sandwich"
+        ],
+        "furniture": [
+          "bed",
+          "chair",
+          "couch",
+          "dining table",
+          "potted plant",
+          "toilet"
+        ],
+        "indoor": [
+          "book",
+          "clock",
+          "hair drier",
+          "scissors",
+          "teddy bear",
+          "toothbrush",
+          "vase"
+        ],
+        "kitchen": [
+          "bottle",
+          "bowl",
+          "cup",
+          "fork",
+          "knife",
+          "spoon",
+          "wine glass"
+        ],
+        "outdoor": [
+          "bench",
+          "fire hydrant",
+          "parking meter",
+          "stop sign",
+          "traffic light"
+        ],
+        "person": [
+          "person"
+        ],
+        "sports": [
+          "baseball bat",
+          "baseball glove",
+          "frisbee",
+          "kite",
+          "skateboard",
+          "skis",
+          "snowboard",
+          "sports ball",
+          "surfboard",
+          "tennis racket"
+        ],
+        "vehicle": [
+          "airplane",
+          "bicycle",
+          "boat",
+          "bus",
+          "car",
+          "motorcycle",
+          "train",
+          "truck"
+        ]
+      },
+      "per_category": [
+        {
+          "rank": 1,
+          "category_id": 1,
+          "category_name": "person",
+          "supercategory": "person",
+          "count": 11004,
+          "percentage": 29.9176,
+          "crowd_count": 227,
+          "avg_area_px2": 11229.26,
+          "avg_bbox_aspect_ratio": 0.7033
+        },
+        {
+          "rank": 2,
+          "category_id": 3,
+          "category_name": "car",
+          "supercategory": "vehicle",
+          "count": 1932,
+          "percentage": 5.2527,
+          "crowd_count": 14,
+          "avg_area_px2": 4394.14,
+          "avg_bbox_aspect_ratio": 1.6725
+        },
+        {
+          "rank": 3,
+          "category_id": 62,
+          "category_name": "chair",
+          "supercategory": "furniture",
+          "count": 1791,
+          "percentage": 4.8694,
+          "crowd_count": 20,
+          "avg_area_px2": 5435.06,
+          "avg_bbox_aspect_ratio": 1.0822
+        },
+        {
+          "rank": 4,
+          "category_id": 84,
+          "category_name": "book",
+          "supercategory": "indoor",
+          "count": 1161,
+          "percentage": 3.1565,
+          "crowd_count": 32,
+          "avg_area_px2": 2652.78,
+          "avg_bbox_aspect_ratio": 1.296
+        },
+        {
+          "rank": 5,
+          "category_id": 44,
+          "category_name": "bottle",
+          "supercategory": "kitchen",
+          "count": 1025,
+          "percentage": 2.7868,
+          "crowd_count": 12,
+          "avg_area_px2": 2857.24,
+          "avg_bbox_aspect_ratio": 0.5369
+        },
+        {
+          "rank": 6,
+          "category_id": 47,
+          "category_name": "cup",
+          "supercategory": "kitchen",
+          "count": 899,
+          "percentage": 2.4442,
+          "crowd_count": 4,
+          "avg_area_px2": 4259.57,
+          "avg_bbox_aspect_ratio": 0.878
+        },
+        {
+          "rank": 7,
+          "category_id": 67,
+          "category_name": "dining table",
+          "supercategory": "furniture",
+          "count": 697,
+          "percentage": 1.895,
+          "crowd_count": 2,
+          "avg_area_px2": 59166.42,
+          "avg_bbox_aspect_ratio": 2.3417
+        },
+        {
+          "rank": 8,
+          "category_id": 10,
+          "category_name": "traffic light",
+          "supercategory": "outdoor",
+          "count": 637,
+          "percentage": 1.7319,
+          "crowd_count": 3,
+          "avg_area_px2": 1315.27,
+          "avg_bbox_aspect_ratio": 0.7075
+        },
+        {
+          "rank": 9,
+          "category_id": 51,
+          "category_name": "bowl",
+          "supercategory": "kitchen",
+          "count": 626,
+          "percentage": 1.702,
+          "crowd_count": 3,
+          "avg_area_px2": 21060.68,
+          "avg_bbox_aspect_ratio": 1.6984
+        },
+        {
+          "rank": 10,
+          "category_id": 31,
+          "category_name": "handbag",
+          "supercategory": "accessory",
+          "count": 540,
+          "percentage": 1.4681,
+          "crowd_count": 0,
+          "avg_area_px2": 2158.81,
+          "avg_bbox_aspect_ratio": 0.7784
+        },
+        {
+          "rank": 11,
+          "category_id": 16,
+          "category_name": "bird",
+          "supercategory": "animal",
+          "count": 440,
+          "percentage": 1.1963,
+          "crowd_count": 13,
+          "avg_area_px2": 4264.33,
+          "avg_bbox_aspect_ratio": 1.393
+        },
+        {
+          "rank": 12,
+          "category_id": 9,
+          "category_name": "boat",
+          "supercategory": "vehicle",
+          "count": 430,
+          "percentage": 1.1691,
+          "crowd_count": 6,
+          "avg_area_px2": 6619.41,
+          "avg_bbox_aspect_ratio": 2.7269
+        },
+        {
+          "rank": 13,
+          "category_id": 8,
+          "category_name": "truck",
+          "supercategory": "vehicle",
+          "count": 415,
+          "percentage": 1.1283,
+          "crowd_count": 1,
+          "avg_area_px2": 17885.25,
+          "avg_bbox_aspect_ratio": 1.6336
+        },
+        {
+          "rank": 14,
+          "category_id": 28,
+          "category_name": "umbrella",
+          "supercategory": "accessory",
+          "count": 413,
+          "percentage": 1.1229,
+          "crowd_count": 6,
+          "avg_area_px2": 10491.61,
+          "avg_bbox_aspect_ratio": 1.8453
+        },
+        {
+          "rank": 15,
+          "category_id": 15,
+          "category_name": "bench",
+          "supercategory": "outdoor",
+          "count": 413,
+          "percentage": 1.1229,
+          "crowd_count": 2,
+          "avg_area_px2": 12850.98,
+          "avg_bbox_aspect_ratio": 2.8978
+        },
+        {
+          "rank": 16,
+          "category_id": 21,
+          "category_name": "cow",
+          "supercategory": "animal",
+          "count": 380,
+          "percentage": 1.0331,
+          "crowd_count": 8,
+          "avg_area_px2": 10702.23,
+          "avg_bbox_aspect_ratio": 1.4349
+        },
+        {
+          "rank": 17,
+          "category_id": 52,
+          "category_name": "banana",
+          "supercategory": "food",
+          "count": 379,
+          "percentage": 1.0304,
+          "crowd_count": 9,
+          "avg_area_px2": 9845.02,
+          "avg_bbox_aspect_ratio": 1.3052
+        },
+        {
+          "rank": 18,
+          "category_id": 4,
+          "category_name": "motorcycle",
+          "supercategory": "vehicle",
+          "count": 371,
+          "percentage": 1.0087,
+          "crowd_count": 4,
+          "avg_area_px2": 19468.92,
+          "avg_bbox_aspect_ratio": 1.1761
+        },
+        {
+          "rank": 19,
+          "category_id": 57,
+          "category_name": "carrot",
+          "supercategory": "food",
+          "count": 371,
+          "percentage": 1.0087,
+          "crowd_count": 6,
+          "avg_area_px2": 4062.08,
+          "avg_bbox_aspect_ratio": 1.3838
+        },
+        {
+          "rank": 20,
+          "category_id": 27,
+          "category_name": "backpack",
+          "supercategory": "accessory",
+          "count": 371,
+          "percentage": 1.0087,
+          "crowd_count": 0,
+          "avg_area_px2": 2605.24,
+          "avg_bbox_aspect_ratio": 0.8826
+        },
+        {
+          "rank": 21,
+          "category_id": 20,
+          "category_name": "sheep",
+          "supercategory": "animal",
+          "count": 361,
+          "percentage": 0.9815,
+          "crowd_count": 7,
+          "avg_area_px2": 10497.76,
+          "avg_bbox_aspect_ratio": 1.2026
+        },
+        {
+          "rank": 22,
+          "category_id": 64,
+          "category_name": "potted plant",
+          "supercategory": "furniture",
+          "count": 343,
+          "percentage": 0.9325,
+          "crowd_count": 1,
+          "avg_area_px2": 7786.49,
+          "avg_bbox_aspect_ratio": 0.8684
+        },
+        {
+          "rank": 23,
+          "category_id": 46,
+          "category_name": "wine glass",
+          "supercategory": "kitchen",
+          "count": 343,
+          "percentage": 0.9325,
+          "crowd_count": 2,
+          "avg_area_px2": 3319.6,
+          "avg_bbox_aspect_ratio": 0.5908
+        },
+        {
+          "rank": 24,
+          "category_id": 60,
+          "category_name": "donut",
+          "supercategory": "food",
+          "count": 338,
+          "percentage": 0.919,
+          "crowd_count": 10,
+          "avg_area_px2": 8063.64,
+          "avg_bbox_aspect_ratio": 1.4279
+        },
+        {
+          "rank": 25,
+          "category_id": 38,
+          "category_name": "kite",
+          "supercategory": "sports",
+          "count": 336,
+          "percentage": 0.9135,
+          "crowd_count": 9,
+          "avg_area_px2": 2390.75,
+          "avg_bbox_aspect_ratio": 1.3883
+        },
+        {
+          "rank": 26,
+          "category_id": 49,
+          "category_name": "knife",
+          "supercategory": "kitchen",
+          "count": 326,
+          "percentage": 0.8863,
+          "crowd_count": 1,
+          "avg_area_px2": 1687.09,
+          "avg_bbox_aspect_ratio": 2.5617
+        },
+        {
+          "rank": 27,
+          "category_id": 2,
+          "category_name": "bicycle",
+          "supercategory": "vehicle",
+          "count": 316,
+          "percentage": 0.8591,
+          "crowd_count": 2,
+          "avg_area_px2": 7934.95,
+          "avg_bbox_aspect_ratio": 1.0866
+        },
+        {
+          "rank": 28,
+          "category_id": 56,
+          "category_name": "broccoli",
+          "supercategory": "food",
+          "count": 316,
+          "percentage": 0.8591,
+          "crowd_count": 4,
+          "avg_area_px2": 8368.15,
+          "avg_bbox_aspect_ratio": 1.1532
+        },
+        {
+          "rank": 29,
+          "category_id": 61,
+          "category_name": "cake",
+          "supercategory": "food",
+          "count": 316,
+          "percentage": 0.8591,
+          "crowd_count": 6,
+          "avg_area_px2": 15094.28,
+          "avg_bbox_aspect_ratio": 1.3941
+        },
+        {
+          "rank": 30,
+          "category_id": 33,
+          "category_name": "suitcase",
+          "supercategory": "accessory",
+          "count": 303,
+          "percentage": 0.8238,
+          "crowd_count": 4,
+          "avg_area_px2": 13035.76,
+          "avg_bbox_aspect_ratio": 1.1508
+        },
+        {
+          "rank": 31,
+          "category_id": 72,
+          "category_name": "tv",
+          "supercategory": "electronic",
+          "count": 288,
+          "percentage": 0.783,
+          "crowd_count": 0,
+          "avg_area_px2": 20450.52,
+          "avg_bbox_aspect_ratio": 1.1452
+        },
+        {
+          "rank": 32,
+          "category_id": 55,
+          "category_name": "orange",
+          "supercategory": "food",
+          "count": 287,
+          "percentage": 0.7803,
+          "crowd_count": 2,
+          "avg_area_px2": 9366.65,
+          "avg_bbox_aspect_ratio": 1.2536
+        },
+        {
+          "rank": 33,
+          "category_id": 6,
+          "category_name": "bus",
+          "supercategory": "vehicle",
+          "count": 285,
+          "percentage": 0.7749,
+          "crowd_count": 2,
+          "avg_area_px2": 42167.09,
+          "avg_bbox_aspect_ratio": 1.5834
+        },
+        {
+          "rank": 34,
+          "category_id": 59,
+          "category_name": "pizza",
+          "supercategory": "food",
+          "count": 285,
+          "percentage": 0.7749,
+          "crowd_count": 1,
+          "avg_area_px2": 36288.54,
+          "avg_bbox_aspect_ratio": 2.0633
+        },
+        {
+          "rank": 35,
+          "category_id": 75,
+          "category_name": "remote",
+          "supercategory": "electronic",
+          "count": 283,
+          "percentage": 0.7694,
+          "crowd_count": 0,
+          "avg_area_px2": 2468.16,
+          "avg_bbox_aspect_ratio": 1.5646
+        },
+        {
+          "rank": 36,
+          "category_id": 86,
+          "category_name": "vase",
+          "supercategory": "indoor",
+          "count": 277,
+          "percentage": 0.7531,
+          "crowd_count": 3,
+          "avg_area_px2": 8438.17,
+          "avg_bbox_aspect_ratio": 0.7394
+        },
+        {
+          "rank": 37,
+          "category_id": 19,
+          "category_name": "horse",
+          "supercategory": "animal",
+          "count": 273,
+          "percentage": 0.7422,
+          "crowd_count": 1,
+          "avg_area_px2": 14517.3,
+          "avg_bbox_aspect_ratio": 0.9891
+        },
+        {
+          "rank": 38,
+          "category_id": 42,
+          "category_name": "surfboard",
+          "supercategory": "sports",
+          "count": 269,
+          "percentage": 0.7314,
+          "crowd_count": 2,
+          "avg_area_px2": 5563.53,
+          "avg_bbox_aspect_ratio": 2.7872
+        },
+        {
+          "rank": 39,
+          "category_id": 24,
+          "category_name": "zebra",
+          "supercategory": "animal",
+          "count": 268,
+          "percentage": 0.7286,
+          "crowd_count": 2,
+          "avg_area_px2": 20327.29,
+          "avg_bbox_aspect_ratio": 1.1465
+        },
+        {
+          "rank": 40,
+          "category_id": 85,
+          "category_name": "clock",
+          "supercategory": "indoor",
+          "count": 267,
+          "percentage": 0.7259,
+          "crowd_count": 0,
+          "avg_area_px2": 7726.52,
+          "avg_bbox_aspect_ratio": 0.9546
+        },
+        {
+          "rank": 41,
+          "category_id": 37,
+          "category_name": "sports ball",
+          "supercategory": "sports",
+          "count": 263,
+          "percentage": 0.715,
+          "crowd_count": 3,
+          "avg_area_px2": 755.43,
+          "avg_bbox_aspect_ratio": 1.0829
+        },
+        {
+          "rank": 42,
+          "category_id": 77,
+          "category_name": "cell phone",
+          "supercategory": "electronic",
+          "count": 262,
+          "percentage": 0.7123,
+          "crowd_count": 0,
+          "avg_area_px2": 7826.17,
+          "avg_bbox_aspect_ratio": 1.2585
+        },
+        {
+          "rank": 43,
+          "category_id": 63,
+          "category_name": "couch",
+          "supercategory": "furniture",
+          "count": 261,
+          "percentage": 0.7096,
+          "crowd_count": 0,
+          "avg_area_px2": 31996.06,
+          "avg_bbox_aspect_ratio": 1.4872
+        },
+        {
+          "rank": 44,
+          "category_id": 22,
+          "category_name": "elephant",
+          "supercategory": "animal",
+          "count": 255,
+          "percentage": 0.6933,
+          "crowd_count": 3,
+          "avg_area_px2": 28750.78,
+          "avg_bbox_aspect_ratio": 1.212
+        },
+        {
+          "rank": 45,
+          "category_id": 32,
+          "category_name": "tie",
+          "supercategory": "accessory",
+          "count": 254,
+          "percentage": 0.6906,
+          "crowd_count": 2,
+          "avg_area_px2": 2892.18,
+          "avg_bbox_aspect_ratio": 0.7236
+        },
+        {
+          "rank": 46,
+          "category_id": 50,
+          "category_name": "spoon",
+          "supercategory": "kitchen",
+          "count": 253,
+          "percentage": 0.6879,
+          "crowd_count": 0,
+          "avg_area_px2": 1954.16,
+          "avg_bbox_aspect_ratio": 1.6171
+        },
+        {
+          "rank": 47,
+          "category_id": 35,
+          "category_name": "skis",
+          "supercategory": "sports",
+          "count": 241,
+          "percentage": 0.6552,
+          "crowd_count": 0,
+          "avg_area_px2": 1221.58,
+          "avg_bbox_aspect_ratio": 3.9937
+        },
+        {
+          "rank": 48,
+          "category_id": 53,
+          "category_name": "apple",
+          "supercategory": "food",
+          "count": 239,
+          "percentage": 0.6498,
+          "crowd_count": 3,
+          "avg_area_px2": 7337.17,
+          "avg_bbox_aspect_ratio": 1.345
+        },
+        {
+          "rank": 49,
+          "category_id": 25,
+          "category_name": "giraffe",
+          "supercategory": "animal",
+          "count": 232,
+          "percentage": 0.6308,
+          "crowd_count": 0,
+          "avg_area_px2": 16089.54,
+          "avg_bbox_aspect_ratio": 0.7627
+        },
+        {
+          "rank": 50,
+          "category_id": 73,
+          "category_name": "laptop",
+          "supercategory": "electronic",
+          "count": 231,
+          "percentage": 0.628,
+          "crowd_count": 0,
+          "avg_area_px2": 26444.25,
+          "avg_bbox_aspect_ratio": 1.3766
+        },
+        {
+          "rank": 51,
+          "category_id": 81,
+          "category_name": "sink",
+          "supercategory": "appliance",
+          "count": 225,
+          "percentage": 0.6117,
+          "crowd_count": 0,
+          "avg_area_px2": 11208.48,
+          "avg_bbox_aspect_ratio": 3.0699
+        },
+        {
+          "rank": 52,
+          "category_id": 43,
+          "category_name": "tennis racket",
+          "supercategory": "sports",
+          "count": 225,
+          "percentage": 0.6117,
+          "crowd_count": 0,
+          "avg_area_px2": 4553.47,
+          "avg_bbox_aspect_ratio": 1.0507
+        },
+        {
+          "rank": 53,
+          "category_id": 18,
+          "category_name": "dog",
+          "supercategory": "animal",
+          "count": 218,
+          "percentage": 0.5927,
+          "crowd_count": 0,
+          "avg_area_px2": 34280.54,
+          "avg_bbox_aspect_ratio": 1.1063
+        },
+        {
+          "rank": 54,
+          "category_id": 48,
+          "category_name": "fork",
+          "supercategory": "kitchen",
+          "count": 215,
+          "percentage": 0.5845,
+          "crowd_count": 0,
+          "avg_area_px2": 3037.87,
+          "avg_bbox_aspect_ratio": 1.9598
+        },
+        {
+          "rank": 55,
+          "category_id": 17,
+          "category_name": "cat",
+          "supercategory": "animal",
+          "count": 202,
+          "percentage": 0.5492,
+          "crowd_count": 0,
+          "avg_area_px2": 47751.23,
+          "avg_bbox_aspect_ratio": 1.292
+        },
+        {
+          "rank": 56,
+          "category_id": 88,
+          "category_name": "teddy bear",
+          "supercategory": "indoor",
+          "count": 191,
+          "percentage": 0.5193,
+          "crowd_count": 1,
+          "avg_area_px2": 27369.09,
+          "avg_bbox_aspect_ratio": 0.8674
+        },
+        {
+          "rank": 57,
+          "category_id": 7,
+          "category_name": "train",
+          "supercategory": "vehicle",
+          "count": 190,
+          "percentage": 0.5166,
+          "crowd_count": 0,
+          "avg_area_px2": 58991.7,
+          "avg_bbox_aspect_ratio": 2.1927
+        },
+        {
+          "rank": 58,
+          "category_id": 41,
+          "category_name": "skateboard",
+          "supercategory": "sports",
+          "count": 179,
+          "percentage": 0.4867,
+          "crowd_count": 0,
+          "avg_area_px2": 4987.59,
+          "avg_bbox_aspect_ratio": 1.9522
+        },
+        {
+          "rank": 59,
+          "category_id": 70,
+          "category_name": "toilet",
+          "supercategory": "furniture",
+          "count": 179,
+          "percentage": 0.4867,
+          "crowd_count": 0,
+          "avg_area_px2": 26168.28,
+          "avg_bbox_aspect_ratio": 0.9506
+        },
+        {
+          "rank": 60,
+          "category_id": 54,
+          "category_name": "sandwich",
+          "supercategory": "food",
+          "count": 177,
+          "percentage": 0.4812,
+          "crowd_count": 0,
+          "avg_area_px2": 24828.48,
+          "avg_bbox_aspect_ratio": 1.3989
+        },
+        {
+          "rank": 61,
+          "category_id": 65,
+          "category_name": "bed",
+          "supercategory": "furniture",
+          "count": 163,
+          "percentage": 0.4432,
+          "crowd_count": 0,
+          "avg_area_px2": 84868.91,
+          "avg_bbox_aspect_ratio": 1.6711
+        },
+        {
+          "rank": 62,
+          "category_id": 76,
+          "category_name": "keyboard",
+          "supercategory": "electronic",
+          "count": 153,
+          "percentage": 0.416,
+          "crowd_count": 0,
+          "avg_area_px2": 11995.66,
+          "avg_bbox_aspect_ratio": 3.1533
+        },
+        {
+          "rank": 63,
+          "category_id": 40,
+          "category_name": "baseball glove",
+          "supercategory": "sports",
+          "count": 148,
+          "percentage": 0.4024,
+          "crowd_count": 0,
+          "avg_area_px2": 1946.5,
+          "avg_bbox_aspect_ratio": 1.0101
+        },
+        {
+          "rank": 64,
+          "category_id": 39,
+          "category_name": "baseball bat",
+          "supercategory": "sports",
+          "count": 146,
+          "percentage": 0.3969,
+          "crowd_count": 1,
+          "avg_area_px2": 2099.68,
+          "avg_bbox_aspect_ratio": 1.8614
+        },
+        {
+          "rank": 65,
+          "category_id": 5,
+          "category_name": "airplane",
+          "supercategory": "vehicle",
+          "count": 143,
+          "percentage": 0.3888,
+          "crowd_count": 0,
+          "avg_area_px2": 17651.01,
+          "avg_bbox_aspect_ratio": 2.3964
+        },
+        {
+          "rank": 66,
+          "category_id": 79,
+          "category_name": "oven",
+          "supercategory": "appliance",
+          "count": 143,
+          "percentage": 0.3888,
+          "crowd_count": 0,
+          "avg_area_px2": 34487.39,
+          "avg_bbox_aspect_ratio": 1.2118
+        },
+        {
+          "rank": 67,
+          "category_id": 58,
+          "category_name": "hot dog",
+          "supercategory": "food",
+          "count": 127,
+          "percentage": 0.3453,
+          "crowd_count": 2,
+          "avg_area_px2": 16069.9,
+          "avg_bbox_aspect_ratio": 1.9124
+        },
+        {
+          "rank": 68,
+          "category_id": 82,
+          "category_name": "refrigerator",
+          "supercategory": "appliance",
+          "count": 126,
+          "percentage": 0.3426,
+          "crowd_count": 0,
+          "avg_area_px2": 42653.64,
+          "avg_bbox_aspect_ratio": 0.6776
+        },
+        {
+          "rank": 69,
+          "category_id": 34,
+          "category_name": "frisbee",
+          "supercategory": "sports",
+          "count": 115,
+          "percentage": 0.3127,
+          "crowd_count": 0,
+          "avg_area_px2": 2392.79,
+          "avg_bbox_aspect_ratio": 1.7812
+        },
+        {
+          "rank": 70,
+          "category_id": 74,
+          "category_name": "mouse",
+          "supercategory": "electronic",
+          "count": 106,
+          "percentage": 0.2882,
+          "crowd_count": 0,
+          "avg_area_px2": 2673.28,
+          "avg_bbox_aspect_ratio": 1.5793
+        },
+        {
+          "rank": 71,
+          "category_id": 11,
+          "category_name": "fire hydrant",
+          "supercategory": "outdoor",
+          "count": 101,
+          "percentage": 0.2746,
+          "crowd_count": 0,
+          "avg_area_px2": 18578.39,
+          "avg_bbox_aspect_ratio": 0.5218
+        },
+        {
+          "rank": 72,
+          "category_id": 13,
+          "category_name": "stop sign",
+          "supercategory": "outdoor",
+          "count": 75,
+          "percentage": 0.2039,
+          "crowd_count": 0,
+          "avg_area_px2": 20369.91,
+          "avg_bbox_aspect_ratio": 0.8961
+        },
+        {
+          "rank": 73,
+          "category_id": 23,
+          "category_name": "bear",
+          "supercategory": "animal",
+          "count": 71,
+          "percentage": 0.193,
+          "crowd_count": 0,
+          "avg_area_px2": 48900.17,
+          "avg_bbox_aspect_ratio": 1.2569
+        },
+        {
+          "rank": 74,
+          "category_id": 36,
+          "category_name": "snowboard",
+          "supercategory": "sports",
+          "count": 69,
+          "percentage": 0.1876,
+          "crowd_count": 0,
+          "avg_area_px2": 2994.37,
+          "avg_bbox_aspect_ratio": 3.5481
+        },
+        {
+          "rank": 75,
+          "category_id": 14,
+          "category_name": "parking meter",
+          "supercategory": "outdoor",
+          "count": 60,
+          "percentage": 0.1631,
+          "crowd_count": 0,
+          "avg_area_px2": 12880.5,
+          "avg_bbox_aspect_ratio": 0.5873
+        },
+        {
+          "rank": 76,
+          "category_id": 90,
+          "category_name": "toothbrush",
+          "supercategory": "indoor",
+          "count": 57,
+          "percentage": 0.155,
+          "crowd_count": 0,
+          "avg_area_px2": 2051.72,
+          "avg_bbox_aspect_ratio": 1.2165
+        },
+        {
+          "rank": 77,
+          "category_id": 78,
+          "category_name": "microwave",
+          "supercategory": "appliance",
+          "count": 55,
+          "percentage": 0.1495,
+          "crowd_count": 0,
+          "avg_area_px2": 22095.47,
+          "avg_bbox_aspect_ratio": 1.4133
+        },
+        {
+          "rank": 78,
+          "category_id": 87,
+          "category_name": "scissors",
+          "supercategory": "indoor",
+          "count": 36,
+          "percentage": 0.0979,
+          "crowd_count": 0,
+          "avg_area_px2": 24835.27,
+          "avg_bbox_aspect_ratio": 1.4131
+        },
+        {
+          "rank": 79,
+          "category_id": 89,
+          "category_name": "hair drier",
+          "supercategory": "indoor",
+          "count": 11,
+          "percentage": 0.0299,
+          "crowd_count": 0,
+          "avg_area_px2": 6514.6,
+          "avg_bbox_aspect_ratio": 0.7723
+        },
+        {
+          "rank": 80,
+          "category_id": 80,
+          "category_name": "toaster",
+          "supercategory": "appliance",
+          "count": 9,
+          "percentage": 0.0245,
+          "crowd_count": 0,
+          "avg_area_px2": 16945.76,
+          "avg_bbox_aspect_ratio": 1.2214
+        }
+      ],
+      "size_distribution": {
+        "small": {
+          "threshold": "area < 1024 px\u00b2",
+          "count": 15315,
+          "percentage": 41.6383
+        },
+        "medium": {
+          "threshold": "area < 9216 px\u00b2",
+          "count": 12569,
+          "percentage": 34.1725
+        },
+        "large": {
+          "threshold": "area >= 9216 px\u00b2",
+          "count": 8897,
+          "percentage": 24.1891
+        }
+      },
+      "objects_per_image": {
+        "objs_per_img_count": 5000,
+        "objs_per_img_sum": 36781,
+        "objs_per_img_min": 0,
+        "objs_per_img_max": 63,
+        "objs_per_img_mean": 7.3562,
+        "objs_per_img_median": 4.0,
+        "objs_per_img_std": 7.4382,
+        "objs_per_img_p5": 1.0,
+        "objs_per_img_p25": 2.0,
+        "objs_per_img_p75": 10.0,
+        "objs_per_img_p95": 23.0,
+        "images_with_0_annotations": 48
+      },
+      "objects_per_image_histogram": [
+        {
+          "range": "0.0\u20134.2",
+          "range_low": 0.0,
+          "range_high": 4.2,
+          "count": 2532
+        },
+        {
+          "range": "4.2\u20138.4",
+          "range_low": 4.2,
+          "range_high": 8.4,
+          "count": 945
+        },
+        {
+          "range": "8.4\u201312.6",
+          "range_low": 8.4,
+          "range_high": 12.6,
+          "count": 544
+        },
+        {
+          "range": "12.6\u201316.8",
+          "range_low": 12.6,
+          "range_high": 16.8,
+          "count": 388
+        },
+        {
+          "range": "16.8\u201321.0",
+          "range_low": 16.8,
+          "range_high": 21.0,
+          "count": 258
+        },
+        {
+          "range": "21.0\u201325.2",
+          "range_low": 21.0,
+          "range_high": 25.2,
+          "count": 165
+        },
+        {
+          "range": "25.2\u201329.4",
+          "range_low": 25.2,
+          "range_high": 29.4,
+          "count": 86
+        },
+        {
+          "range": "29.4\u201333.6",
+          "range_low": 29.4,
+          "range_high": 33.6,
+          "count": 27
+        },
+        {
+          "range": "33.6\u201337.8",
+          "range_low": 33.6,
+          "range_high": 37.8,
+          "count": 25
+        },
+        {
+          "range": "37.8\u201342.0",
+          "range_low": 37.8,
+          "range_high": 42.0,
+          "count": 17
+        },
+        {
+          "range": "42.0\u201346.2",
+          "range_low": 42.0,
+          "range_high": 46.2,
+          "count": 7
+        },
+        {
+          "range": "46.2\u201350.4",
+          "range_low": 46.2,
+          "range_high": 50.4,
+          "count": 0
+        },
+        {
+          "range": "50.4\u201354.6",
+          "range_low": 50.4,
+          "range_high": 54.6,
+          "count": 3
+        },
+        {
+          "range": "54.6\u201358.8",
+          "range_low": 54.6,
+          "range_high": 58.8,
+          "count": 2
+        },
+        {
+          "range": "58.8\u201363.0",
+          "range_low": 58.8,
+          "range_high": 63.0,
+          "count": 1
+        }
+      ],
+      "bbox_area_stats": {
+        "bbox_area_count": 36781,
+        "bbox_area_sum": 440603588.8626,
+        "bbox_area_min": 1.0004,
+        "bbox_area_max": 393093.9642,
+        "bbox_area_mean": 11979.1085,
+        "bbox_area_median": 1681,
+        "bbox_area_std": 29416.2741,
+        "bbox_area_p5": 60.3101,
+        "bbox_area_p25": 377.363,
+        "bbox_area_p75": 8647.652,
+        "bbox_area_p95": 61258.1075
+      },
+      "crowd_annotations": {
+        "total": 446,
+        "percentage": 1.2126
+      },
+      "top_20_cooccurrence": [
+        {
+          "category_a": "person",
+          "category_b": "chair",
+          "images": 367
+        },
+        {
+          "category_a": "person",
+          "category_b": "car",
+          "images": 359
+        },
+        {
+          "category_a": "person",
+          "category_b": "handbag",
+          "images": 281
+        },
+        {
+          "category_a": "person",
+          "category_b": "dining table",
+          "images": 250
+        },
+        {
+          "category_a": "chair",
+          "category_b": "dining table",
+          "images": 241
+        },
+        {
+          "category_a": "person",
+          "category_b": "cup",
+          "images": 217
+        },
+        {
+          "category_a": "person",
+          "category_b": "backpack",
+          "images": 214
+        },
+        {
+          "category_a": "person",
+          "category_b": "bottle",
+          "images": 207
+        },
+        {
+          "category_a": "cup",
+          "category_b": "dining table",
+          "images": 194
+        },
+        {
+          "category_a": "person",
+          "category_b": "cell phone",
+          "images": 170
+        },
+        {
+          "category_a": "person",
+          "category_b": "tennis racket",
+          "images": 166
+        },
+        {
+          "category_a": "person",
+          "category_b": "bench",
+          "images": 165
+        },
+        {
+          "category_a": "person",
+          "category_b": "truck",
+          "images": 159
+        },
+        {
+          "category_a": "person",
+          "category_b": "sports ball",
+          "images": 159
+        },
+        {
+          "category_a": "car",
+          "category_b": "truck",
+          "images": 152
+        },
+        {
+          "category_a": "bowl",
+          "category_b": "dining table",
+          "images": 149
+        },
+        {
+          "category_a": "person",
+          "category_b": "umbrella",
+          "images": 146
+        },
+        {
+          "category_a": "person",
+          "category_b": "bus",
+          "images": 143
+        },
+        {
+          "category_a": "person",
+          "category_b": "surfboard",
+          "images": 142
+        },
+        {
+          "category_a": "person",
+          "category_b": "tie",
+          "images": 138
+        }
+      ]
+    }
+  },
+  "images": {
+    "train": {
+      "total_images": 118287,
+      "unique_resolutions": 2477,
+      "top_15_resolutions": [
+        {
+          "width": 640,
+          "height": 480,
+          "count": 25403,
+          "percentage": 21.4757
+        },
+        {
+          "width": 640,
+          "height": 427,
+          "count": 14596,
+          "percentage": 12.3395
+        },
+        {
+          "width": 480,
+          "height": 640,
+          "count": 8411,
+          "percentage": 7.1107
+        },
+        {
+          "width": 640,
+          "height": 426,
+          "count": 5353,
+          "percentage": 4.5254
+        },
+        {
+          "width": 500,
+          "height": 375,
+          "count": 5208,
+          "percentage": 4.4029
+        },
+        {
+          "width": 427,
+          "height": 640,
+          "count": 4259,
+          "percentage": 3.6006
+        },
+        {
+          "width": 640,
+          "height": 428,
+          "count": 3304,
+          "percentage": 2.7932
+        },
+        {
+          "width": 640,
+          "height": 425,
+          "count": 3134,
+          "percentage": 2.6495
+        },
+        {
+          "width": 612,
+          "height": 612,
+          "count": 2393,
+          "percentage": 2.023
+        },
+        {
+          "width": 375,
+          "height": 500,
+          "count": 1926,
+          "percentage": 1.6282
+        },
+        {
+          "width": 640,
+          "height": 424,
+          "count": 1746,
+          "percentage": 1.4761
+        },
+        {
+          "width": 426,
+          "height": 640,
+          "count": 1660,
+          "percentage": 1.4034
+        },
+        {
+          "width": 500,
+          "height": 333,
+          "count": 1628,
+          "percentage": 1.3763
+        },
+        {
+          "width": 640,
+          "height": 640,
+          "count": 1563,
+          "percentage": 1.3214
+        },
+        {
+          "width": 640,
+          "height": 360,
+          "count": 1431,
+          "percentage": 1.2098
+        }
+      ],
+      "aspect_ratio_stats": {
+        "aspect_ratio_count": 118287,
+        "aspect_ratio_sum": 148408.154,
+        "aspect_ratio_min": 0.2437,
+        "aspect_ratio_max": 6.1538,
+        "aspect_ratio_mean": 1.2546,
+        "aspect_ratio_median": 1.3333,
+        "aspect_ratio_std": 0.3487,
+        "aspect_ratio_p5": 0.6672,
+        "aspect_ratio_p25": 1.0,
+        "aspect_ratio_p75": 1.4988,
+        "aspect_ratio_p95": 1.6327
+      },
+      "file_check": {
+        "directory": "/home/azureuser/Documents/COCO_adaptation/train2017",
+        "files_on_disk": 118287,
+        "expected_from_json": 118287,
+        "missing_files": 0,
+        "extra_files": 0,
+        "missing_filenames": []
+      }
+    },
+    "val": {
+      "total_images": 5000,
+      "unique_resolutions": 603,
+      "top_15_resolutions": [
+        {
+          "width": 640,
+          "height": 480,
+          "count": 1061,
+          "percentage": 21.22
+        },
+        {
+          "width": 640,
+          "height": 427,
+          "count": 606,
+          "percentage": 12.12
+        },
+        {
+          "width": 480,
+          "height": 640,
+          "count": 336,
+          "percentage": 6.72
+        },
+        {
+          "width": 500,
+          "height": 375,
+          "count": 240,
+          "percentage": 4.8
+        },
+        {
+          "width": 640,
+          "height": 426,
+          "count": 215,
+          "percentage": 4.3
+        },
+        {
+          "width": 427,
+          "height": 640,
+          "count": 171,
+          "percentage": 3.42
+        },
+        {
+          "width": 640,
+          "height": 428,
+          "count": 161,
+          "percentage": 3.22
+        },
+        {
+          "width": 640,
+          "height": 425,
+          "count": 146,
+          "percentage": 2.92
+        },
+        {
+          "width": 612,
+          "height": 612,
+          "count": 106,
+          "percentage": 2.12
+        },
+        {
+          "width": 375,
+          "height": 500,
+          "count": 94,
+          "percentage": 1.88
+        },
+        {
+          "width": 500,
+          "height": 333,
+          "count": 80,
+          "percentage": 1.6
+        },
+        {
+          "width": 426,
+          "height": 640,
+          "count": 73,
+          "percentage": 1.46
+        },
+        {
+          "width": 640,
+          "height": 640,
+          "count": 54,
+          "percentage": 1.08
+        },
+        {
+          "width": 640,
+          "height": 360,
+          "count": 53,
+          "percentage": 1.06
+        },
+        {
+          "width": 640,
+          "height": 424,
+          "count": 51,
+          "percentage": 1.02
+        }
+      ],
+      "aspect_ratio_stats": {
+        "aspect_ratio_count": 5000,
+        "aspect_ratio_sum": 6246.9433,
+        "aspect_ratio_min": 0.3844,
+        "aspect_ratio_max": 4.0252,
+        "aspect_ratio_mean": 1.2494,
+        "aspect_ratio_median": 1.3333,
+        "aspect_ratio_std": 0.3528,
+        "aspect_ratio_p5": 0.666,
+        "aspect_ratio_p25": 1.0,
+        "aspect_ratio_p75": 1.4988,
+        "aspect_ratio_p95": 1.6163
+      },
+      "file_check": {
+        "directory": "/home/azureuser/Documents/COCO_adaptation/val2017",
+        "files_on_disk": 5000,
+        "expected_from_json": 5000,
+        "missing_files": 0,
+        "extra_files": 0,
+        "missing_filenames": []
+      }
+    }
+  },
+  "segmentation": {
+    "train": {
+      "polygon_masks": {
+        "count": 849949,
+        "percentage": 98.8312
+      },
+      "rle_masks_crowd": {
+        "count": 10052,
+        "percentage": 1.1688
+      },
+      "no_segmentation": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "polygon_vertex_stats": {
+        "vertices_per_mask_count": 849949,
+        "vertices_per_mask_sum": 20848962,
+        "vertices_per_mask_min": 4,
+        "vertices_per_mask_max": 1085,
+        "vertices_per_mask_mean": 24.5297,
+        "vertices_per_mask_median": 18,
+        "vertices_per_mask_std": 21.0818,
+        "vertices_per_mask_p5": 6.0,
+        "vertices_per_mask_p25": 11,
+        "vertices_per_mask_p75": 31,
+        "vertices_per_mask_p95": 63.0
+      }
+    },
+    "val": {
+      "polygon_masks": {
+        "count": 36335,
+        "percentage": 98.7874
+      },
+      "rle_masks_crowd": {
+        "count": 446,
+        "percentage": 1.2126
+      },
+      "no_segmentation": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "polygon_vertex_stats": {
+        "vertices_per_mask_count": 36335,
+        "vertices_per_mask_sum": 877781,
+        "vertices_per_mask_min": 4,
+        "vertices_per_mask_max": 362,
+        "vertices_per_mask_mean": 24.158,
+        "vertices_per_mask_median": 18,
+        "vertices_per_mask_std": 20.6591,
+        "vertices_per_mask_p5": 6.0,
+        "vertices_per_mask_p25": 11.0,
+        "vertices_per_mask_p75": 30.0,
+        "vertices_per_mask_p95": 62.0
+      }
+    }
+  },
+  "captions": {
+    "train": {
+      "images": 118287,
+      "captions": 591753,
+      "captions_per_image_avg": 5.0,
+      "total_words": 6188067,
+      "unique_vocabulary": 44042,
+      "words_per_caption_stats": {
+        "words_per_caption_count": 591753,
+        "words_per_caption_sum": 6188067,
+        "words_per_caption_min": 5,
+        "words_per_caption_max": 49,
+        "words_per_caption_mean": 10.4572,
+        "words_per_caption_median": 10,
+        "words_per_caption_std": 2.3926,
+        "words_per_caption_p5": 8.0,
+        "words_per_caption_p25": 9,
+        "words_per_caption_p75": 11,
+        "words_per_caption_p95": 15.0
+      },
+      "chars_per_caption_stats": {
+        "chars_per_caption_count": 591753,
+        "chars_per_caption_sum": 31060445,
+        "chars_per_caption_min": 21,
+        "chars_per_caption_max": 250,
+        "chars_per_caption_mean": 52.4889,
+        "chars_per_caption_median": 50,
+        "chars_per_caption_std": 12.6995,
+        "chars_per_caption_p5": 38.0,
+        "chars_per_caption_p25": 44,
+        "chars_per_caption_p75": 58,
+        "chars_per_caption_p95": 74.0
+      },
+      "captions_per_image_distribution": {
+        "5": 117972,
+        "6": 312,
+        "7": 3
+      },
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "a",
+          "count": 978597,
+          "percentage": 15.8143
+        },
+        {
+          "rank": 2,
+          "word": "on",
+          "count": 213970,
+          "percentage": 3.4578
+        },
+        {
+          "rank": 3,
+          "word": "of",
+          "count": 204037,
+          "percentage": 3.2973
+        },
+        {
+          "rank": 4,
+          "word": "the",
+          "count": 197716,
+          "percentage": 3.1951
+        },
+        {
+          "rank": 5,
+          "word": "in",
+          "count": 183765,
+          "percentage": 2.9697
+        },
+        {
+          "rank": 6,
+          "word": "with",
+          "count": 154769,
+          "percentage": 2.5011
+        },
+        {
+          "rank": 7,
+          "word": "and",
+          "count": 140721,
+          "percentage": 2.2741
+        },
+        {
+          "rank": 8,
+          "word": "is",
+          "count": 98128,
+          "percentage": 1.5858
+        },
+        {
+          "rank": 9,
+          "word": "man",
+          "count": 72282,
+          "percentage": 1.1681
+        },
+        {
+          "rank": 10,
+          "word": "to",
+          "count": 68112,
+          "percentage": 1.1007
+        },
+        {
+          "rank": 11,
+          "word": "sitting",
+          "count": 52805,
+          "percentage": 0.8533
+        },
+        {
+          "rank": 12,
+          "word": "an",
+          "count": 49870,
+          "percentage": 0.8059
+        },
+        {
+          "rank": 13,
+          "word": "two",
+          "count": 48298,
+          "percentage": 0.7805
+        },
+        {
+          "rank": 14,
+          "word": "at",
+          "count": 42692,
+          "percentage": 0.6899
+        },
+        {
+          "rank": 15,
+          "word": "standing",
+          "count": 42312,
+          "percentage": 0.6838
+        },
+        {
+          "rank": 16,
+          "word": "are",
+          "count": 41063,
+          "percentage": 0.6636
+        },
+        {
+          "rank": 17,
+          "word": "people",
+          "count": 40411,
+          "percentage": 0.653
+        },
+        {
+          "rank": 18,
+          "word": "next",
+          "count": 37198,
+          "percentage": 0.6011
+        },
+        {
+          "rank": 19,
+          "word": "white",
+          "count": 35663,
+          "percentage": 0.5763
+        },
+        {
+          "rank": 20,
+          "word": "woman",
+          "count": 33473,
+          "percentage": 0.5409
+        },
+        {
+          "rank": 21,
+          "word": "that",
+          "count": 27927,
+          "percentage": 0.4513
+        },
+        {
+          "rank": 22,
+          "word": "holding",
+          "count": 27918,
+          "percentage": 0.4512
+        },
+        {
+          "rank": 23,
+          "word": "some",
+          "count": 24316,
+          "percentage": 0.3929
+        },
+        {
+          "rank": 24,
+          "word": "large",
+          "count": 24263,
+          "percentage": 0.3921
+        },
+        {
+          "rank": 25,
+          "word": "person",
+          "count": 24125,
+          "percentage": 0.3899
+        },
+        {
+          "rank": 26,
+          "word": "down",
+          "count": 22414,
+          "percentage": 0.3622
+        },
+        {
+          "rank": 27,
+          "word": "group",
+          "count": 21535,
+          "percentage": 0.348
+        },
+        {
+          "rank": 28,
+          "word": "street",
+          "count": 20693,
+          "percentage": 0.3344
+        },
+        {
+          "rank": 29,
+          "word": "top",
+          "count": 20572,
+          "percentage": 0.3324
+        },
+        {
+          "rank": 30,
+          "word": "up",
+          "count": 20007,
+          "percentage": 0.3233
+        },
+        {
+          "rank": 31,
+          "word": "table",
+          "count": 19953,
+          "percentage": 0.3224
+        },
+        {
+          "rank": 32,
+          "word": "small",
+          "count": 19872,
+          "percentage": 0.3211
+        },
+        {
+          "rank": 33,
+          "word": "near",
+          "count": 19513,
+          "percentage": 0.3153
+        },
+        {
+          "rank": 34,
+          "word": "his",
+          "count": 19453,
+          "percentage": 0.3144
+        },
+        {
+          "rank": 35,
+          "word": "black",
+          "count": 19151,
+          "percentage": 0.3095
+        },
+        {
+          "rank": 36,
+          "word": "front",
+          "count": 19089,
+          "percentage": 0.3085
+        },
+        {
+          "rank": 37,
+          "word": "tennis",
+          "count": 18800,
+          "percentage": 0.3038
+        },
+        {
+          "rank": 38,
+          "word": "riding",
+          "count": 18062,
+          "percentage": 0.2919
+        },
+        {
+          "rank": 39,
+          "word": "train",
+          "count": 17486,
+          "percentage": 0.2826
+        },
+        {
+          "rank": 40,
+          "word": "young",
+          "count": 17080,
+          "percentage": 0.276
+        },
+        {
+          "rank": 41,
+          "word": "red",
+          "count": 16836,
+          "percentage": 0.2721
+        },
+        {
+          "rank": 42,
+          "word": "dog",
+          "count": 16623,
+          "percentage": 0.2686
+        },
+        {
+          "rank": 43,
+          "word": "cat",
+          "count": 16621,
+          "percentage": 0.2686
+        },
+        {
+          "rank": 44,
+          "word": "by",
+          "count": 16499,
+          "percentage": 0.2666
+        },
+        {
+          "rank": 45,
+          "word": "has",
+          "count": 15113,
+          "percentage": 0.2442
+        },
+        {
+          "rank": 46,
+          "word": "baseball",
+          "count": 14770,
+          "percentage": 0.2387
+        },
+        {
+          "rank": 47,
+          "word": "while",
+          "count": 14694,
+          "percentage": 0.2375
+        },
+        {
+          "rank": 48,
+          "word": "playing",
+          "count": 14599,
+          "percentage": 0.2359
+        },
+        {
+          "rank": 49,
+          "word": "walking",
+          "count": 14421,
+          "percentage": 0.233
+        },
+        {
+          "rank": 50,
+          "word": "plate",
+          "count": 14224,
+          "percentage": 0.2299
+        }
+      ],
+      "words_per_caption_histogram": [
+        {
+          "range": "5.0\u20138.7",
+          "range_low": 5.0,
+          "range_high": 8.67,
+          "count": 102754
+        },
+        {
+          "range": "8.7\u201312.3",
+          "range_low": 8.67,
+          "range_high": 12.33,
+          "count": 405397
+        },
+        {
+          "range": "12.3\u201316.0",
+          "range_low": 12.33,
+          "range_high": 16.0,
+          "count": 63683
+        },
+        {
+          "range": "16.0\u201319.7",
+          "range_low": 16.0,
+          "range_high": 19.67,
+          "count": 15137
+        },
+        {
+          "range": "19.7\u201323.3",
+          "range_low": 19.67,
+          "range_high": 23.33,
+          "count": 3259
+        },
+        {
+          "range": "23.3\u201327.0",
+          "range_low": 23.33,
+          "range_high": 27.0,
+          "count": 738
+        },
+        {
+          "range": "27.0\u201330.7",
+          "range_low": 27.0,
+          "range_high": 30.67,
+          "count": 372
+        },
+        {
+          "range": "30.7\u201334.3",
+          "range_low": 30.67,
+          "range_high": 34.33,
+          "count": 187
+        },
+        {
+          "range": "34.3\u201338.0",
+          "range_low": 34.33,
+          "range_high": 38.0,
+          "count": 72
+        },
+        {
+          "range": "38.0\u201341.7",
+          "range_low": 38.0,
+          "range_high": 41.67,
+          "count": 79
+        },
+        {
+          "range": "41.7\u201345.3",
+          "range_low": 41.67,
+          "range_high": 45.33,
+          "count": 57
+        },
+        {
+          "range": "45.3\u201349.0",
+          "range_low": 45.33,
+          "range_high": 49.0,
+          "count": 18
+        }
+      ]
+    },
+    "val": {
+      "images": 5000,
+      "captions": 25014,
+      "captions_per_image_avg": 5.0,
+      "total_words": 261138,
+      "unique_vocabulary": 10007,
+      "words_per_caption_stats": {
+        "words_per_caption_count": 25014,
+        "words_per_caption_sum": 261138,
+        "words_per_caption_min": 7,
+        "words_per_caption_max": 50,
+        "words_per_caption_mean": 10.4397,
+        "words_per_caption_median": 10.0,
+        "words_per_caption_std": 2.3256,
+        "words_per_caption_p5": 8.0,
+        "words_per_caption_p25": 9.0,
+        "words_per_caption_p75": 11.0,
+        "words_per_caption_p95": 15.0
+      },
+      "chars_per_caption_stats": {
+        "chars_per_caption_count": 25014,
+        "chars_per_caption_sum": 1311241,
+        "chars_per_caption_min": 25,
+        "chars_per_caption_max": 247,
+        "chars_per_caption_mean": 52.4203,
+        "chars_per_caption_median": 50.0,
+        "chars_per_caption_std": 12.425,
+        "chars_per_caption_p5": 38.0,
+        "chars_per_caption_p25": 44.0,
+        "chars_per_caption_p75": 58.0,
+        "chars_per_caption_p95": 74.0
+      },
+      "captions_per_image_distribution": {
+        "5": 4987,
+        "6": 12,
+        "7": 1
+      },
+      "top_50_words": [
+        {
+          "rank": 1,
+          "word": "a",
+          "count": 41135,
+          "percentage": 15.7522
+        },
+        {
+          "rank": 2,
+          "word": "on",
+          "count": 9007,
+          "percentage": 3.4491
+        },
+        {
+          "rank": 3,
+          "word": "of",
+          "count": 8618,
+          "percentage": 3.3002
+        },
+        {
+          "rank": 4,
+          "word": "the",
+          "count": 8416,
+          "percentage": 3.2228
+        },
+        {
+          "rank": 5,
+          "word": "in",
+          "count": 7648,
+          "percentage": 2.9287
+        },
+        {
+          "rank": 6,
+          "word": "with",
+          "count": 6414,
+          "percentage": 2.4562
+        },
+        {
+          "rank": 7,
+          "word": "and",
+          "count": 5847,
+          "percentage": 2.239
+        },
+        {
+          "rank": 8,
+          "word": "is",
+          "count": 4204,
+          "percentage": 1.6099
+        },
+        {
+          "rank": 9,
+          "word": "to",
+          "count": 3024,
+          "percentage": 1.158
+        },
+        {
+          "rank": 10,
+          "word": "man",
+          "count": 2878,
+          "percentage": 1.1021
+        },
+        {
+          "rank": 11,
+          "word": "sitting",
+          "count": 2279,
+          "percentage": 0.8727
+        },
+        {
+          "rank": 12,
+          "word": "an",
+          "count": 2113,
+          "percentage": 0.8092
+        },
+        {
+          "rank": 13,
+          "word": "two",
+          "count": 2068,
+          "percentage": 0.7919
+        },
+        {
+          "rank": 14,
+          "word": "standing",
+          "count": 1809,
+          "percentage": 0.6927
+        },
+        {
+          "rank": 15,
+          "word": "at",
+          "count": 1785,
+          "percentage": 0.6835
+        },
+        {
+          "rank": 16,
+          "word": "people",
+          "count": 1722,
+          "percentage": 0.6594
+        },
+        {
+          "rank": 17,
+          "word": "are",
+          "count": 1689,
+          "percentage": 0.6468
+        },
+        {
+          "rank": 18,
+          "word": "next",
+          "count": 1657,
+          "percentage": 0.6345
+        },
+        {
+          "rank": 19,
+          "word": "white",
+          "count": 1506,
+          "percentage": 0.5767
+        },
+        {
+          "rank": 20,
+          "word": "woman",
+          "count": 1399,
+          "percentage": 0.5357
+        },
+        {
+          "rank": 21,
+          "word": "that",
+          "count": 1230,
+          "percentage": 0.471
+        },
+        {
+          "rank": 22,
+          "word": "holding",
+          "count": 1137,
+          "percentage": 0.4354
+        },
+        {
+          "rank": 23,
+          "word": "some",
+          "count": 1056,
+          "percentage": 0.4044
+        },
+        {
+          "rank": 24,
+          "word": "large",
+          "count": 1042,
+          "percentage": 0.399
+        },
+        {
+          "rank": 25,
+          "word": "person",
+          "count": 998,
+          "percentage": 0.3822
+        },
+        {
+          "rank": 26,
+          "word": "group",
+          "count": 951,
+          "percentage": 0.3642
+        },
+        {
+          "rank": 27,
+          "word": "tennis",
+          "count": 918,
+          "percentage": 0.3515
+        },
+        {
+          "rank": 28,
+          "word": "street",
+          "count": 916,
+          "percentage": 0.3508
+        },
+        {
+          "rank": 29,
+          "word": "top",
+          "count": 882,
+          "percentage": 0.3378
+        },
+        {
+          "rank": 30,
+          "word": "down",
+          "count": 865,
+          "percentage": 0.3312
+        },
+        {
+          "rank": 31,
+          "word": "up",
+          "count": 862,
+          "percentage": 0.3301
+        },
+        {
+          "rank": 32,
+          "word": "near",
+          "count": 855,
+          "percentage": 0.3274
+        },
+        {
+          "rank": 33,
+          "word": "table",
+          "count": 822,
+          "percentage": 0.3148
+        },
+        {
+          "rank": 34,
+          "word": "front",
+          "count": 806,
+          "percentage": 0.3086
+        },
+        {
+          "rank": 35,
+          "word": "black",
+          "count": 801,
+          "percentage": 0.3067
+        },
+        {
+          "rank": 36,
+          "word": "train",
+          "count": 801,
+          "percentage": 0.3067
+        },
+        {
+          "rank": 37,
+          "word": "small",
+          "count": 789,
+          "percentage": 0.3021
+        },
+        {
+          "rank": 38,
+          "word": "cat",
+          "count": 761,
+          "percentage": 0.2914
+        },
+        {
+          "rank": 39,
+          "word": "his",
+          "count": 760,
+          "percentage": 0.291
+        },
+        {
+          "rank": 40,
+          "word": "riding",
+          "count": 747,
+          "percentage": 0.2861
+        },
+        {
+          "rank": 41,
+          "word": "has",
+          "count": 701,
+          "percentage": 0.2684
+        },
+        {
+          "rank": 42,
+          "word": "young",
+          "count": 687,
+          "percentage": 0.2631
+        },
+        {
+          "rank": 43,
+          "word": "red",
+          "count": 686,
+          "percentage": 0.2627
+        },
+        {
+          "rank": 44,
+          "word": "playing",
+          "count": 679,
+          "percentage": 0.26
+        },
+        {
+          "rank": 45,
+          "word": "by",
+          "count": 666,
+          "percentage": 0.255
+        },
+        {
+          "rank": 46,
+          "word": "dog",
+          "count": 663,
+          "percentage": 0.2539
+        },
+        {
+          "rank": 47,
+          "word": "plate",
+          "count": 624,
+          "percentage": 0.239
+        },
+        {
+          "rank": 48,
+          "word": "walking",
+          "count": 603,
+          "percentage": 0.2309
+        },
+        {
+          "rank": 49,
+          "word": "baseball",
+          "count": 592,
+          "percentage": 0.2267
+        },
+        {
+          "rank": 50,
+          "word": "it.",
+          "count": 587,
+          "percentage": 0.2248
+        }
+      ],
+      "words_per_caption_histogram": [
+        {
+          "range": "7.0\u201310.6",
+          "range_low": 7.0,
+          "range_high": 10.58,
+          "count": 15197
+        },
+        {
+          "range": "10.6\u201314.2",
+          "range_low": 10.58,
+          "range_high": 14.17,
+          "count": 8565
+        },
+        {
+          "range": "14.2\u201317.8",
+          "range_low": 14.17,
+          "range_high": 17.75,
+          "count": 897
+        },
+        {
+          "range": "17.8\u201321.3",
+          "range_low": 17.75,
+          "range_high": 21.33,
+          "count": 255
+        },
+        {
+          "range": "21.3\u201324.9",
+          "range_low": 21.33,
+          "range_high": 24.92,
+          "count": 59
+        },
+        {
+          "range": "24.9\u201328.5",
+          "range_low": 24.92,
+          "range_high": 28.5,
+          "count": 25
+        },
+        {
+          "range": "28.5\u201332.1",
+          "range_low": 28.5,
+          "range_high": 32.08,
+          "count": 7
+        },
+        {
+          "range": "32.1\u201335.7",
+          "range_low": 32.08,
+          "range_high": 35.67,
+          "count": 3
+        },
+        {
+          "range": "35.7\u201339.2",
+          "range_low": 35.67,
+          "range_high": 39.25,
+          "count": 4
+        },
+        {
+          "range": "39.2\u201342.8",
+          "range_low": 39.25,
+          "range_high": 42.83,
+          "count": 0
+        },
+        {
+          "range": "42.8\u201346.4",
+          "range_low": 42.83,
+          "range_high": 46.42,
+          "count": 1
+        },
+        {
+          "range": "46.4\u201350.0",
+          "range_low": 46.42,
+          "range_high": 50.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "keypoints": {
+    "train": {
+      "images": 118287,
+      "annotations": 262465,
+      "keypoint_names": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "fully_visible_persons": 4040,
+      "fully_visible_percentage": 1.5393,
+      "per_keypoint_visibility": [
+        {
+          "keypoint": "nose",
+          "not_labeled": 161030,
+          "occluded": 5910,
+          "visible": 95525,
+          "visible_percentage": 36.3953
+        },
+        {
+          "keypoint": "left_eye",
+          "not_labeled": 174259,
+          "occluded": 2199,
+          "visible": 86007,
+          "visible_percentage": 32.7689
+        },
+        {
+          "keypoint": "right_eye",
+          "not_labeled": 173659,
+          "occluded": 2725,
+          "visible": 86081,
+          "visible_percentage": 32.7971
+        },
+        {
+          "keypoint": "left_ear",
+          "not_labeled": 185685,
+          "occluded": 4678,
+          "visible": 72102,
+          "visible_percentage": 27.4711
+        },
+        {
+          "keypoint": "right_ear",
+          "not_labeled": 184680,
+          "occluded": 6503,
+          "visible": 71282,
+          "visible_percentage": 27.1587
+        },
+        {
+          "keypoint": "left_shoulder",
+          "not_labeled": 131561,
+          "occluded": 11501,
+          "visible": 119403,
+          "visible_percentage": 45.4929
+        },
+        {
+          "keypoint": "right_shoulder",
+          "not_labeled": 131288,
+          "occluded": 12705,
+          "visible": 118472,
+          "visible_percentage": 45.1382
+        },
+        {
+          "keypoint": "left_elbow",
+          "not_labeled": 158877,
+          "occluded": 12466,
+          "visible": 91122,
+          "visible_percentage": 34.7178
+        },
+        {
+          "keypoint": "right_elbow",
+          "not_labeled": 157238,
+          "occluded": 13295,
+          "visible": 91932,
+          "visible_percentage": 35.0264
+        },
+        {
+          "keypoint": "left_wrist",
+          "not_labeled": 167873,
+          "occluded": 10931,
+          "visible": 83661,
+          "visible_percentage": 31.8751
+        },
+        {
+          "keypoint": "right_wrist",
+          "not_labeled": 165567,
+          "occluded": 11132,
+          "visible": 85766,
+          "visible_percentage": 32.6771
+        },
+        {
+          "keypoint": "left_hip",
+          "not_labeled": 148704,
+          "occluded": 21834,
+          "visible": 91927,
+          "visible_percentage": 35.0245
+        },
+        {
+          "keypoint": "right_hip",
+          "not_labeled": 148398,
+          "occluded": 22418,
+          "visible": 91649,
+          "visible_percentage": 34.9186
+        },
+        {
+          "keypoint": "left_knee",
+          "not_labeled": 175852,
+          "occluded": 11770,
+          "visible": 74843,
+          "visible_percentage": 28.5154
+        },
+        {
+          "keypoint": "right_knee",
+          "not_labeled": 175608,
+          "occluded": 11966,
+          "visible": 74891,
+          "visible_percentage": 28.5337
+        },
+        {
+          "keypoint": "left_ankle",
+          "not_labeled": 189725,
+          "occluded": 11592,
+          "visible": 61148,
+          "visible_percentage": 23.2976
+        },
+        {
+          "keypoint": "right_ankle",
+          "not_labeled": 189618,
+          "occluded": 11817,
+          "visible": 61030,
+          "visible_percentage": 23.2526
+        }
+      ],
+      "visible_kps_per_person_stats": {
+        "visible_kps_per_person_count": 262465,
+        "visible_kps_per_person_sum": 1456841,
+        "visible_kps_per_person_min": 0,
+        "visible_kps_per_person_max": 17,
+        "visible_kps_per_person_mean": 5.5506,
+        "visible_kps_per_person_median": 4,
+        "visible_kps_per_person_std": 5.8636,
+        "visible_kps_per_person_p5": 0.0,
+        "visible_kps_per_person_p25": 0,
+        "visible_kps_per_person_p75": 11,
+        "visible_kps_per_person_p95": 16.0
+      },
+      "labeled_kps_per_person_stats": {
+        "labeled_kps_per_person_count": 262465,
+        "labeled_kps_per_person_sum": 1642283,
+        "labeled_kps_per_person_min": 0,
+        "labeled_kps_per_person_max": 17,
+        "labeled_kps_per_person_mean": 6.2572,
+        "labeled_kps_per_person_median": 5,
+        "labeled_kps_per_person_std": 6.3232,
+        "labeled_kps_per_person_p5": 0.0,
+        "labeled_kps_per_person_p25": 0,
+        "labeled_kps_per_person_p75": 12,
+        "labeled_kps_per_person_p95": 16.0
+      }
+    },
+    "val": {
+      "images": 5000,
+      "annotations": 11004,
+      "keypoint_names": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "fully_visible_persons": 159,
+      "fully_visible_percentage": 1.4449,
+      "per_keypoint_visibility": [
+        {
+          "keypoint": "nose",
+          "not_labeled": 6736,
+          "occluded": 307,
+          "visible": 3961,
+          "visible_percentage": 35.996
+        },
+        {
+          "keypoint": "left_eye",
+          "not_labeled": 7301,
+          "occluded": 130,
+          "visible": 3573,
+          "visible_percentage": 32.47
+        },
+        {
+          "keypoint": "right_eye",
+          "not_labeled": 7319,
+          "occluded": 142,
+          "visible": 3543,
+          "visible_percentage": 32.1974
+        },
+        {
+          "keypoint": "left_ear",
+          "not_labeled": 7819,
+          "occluded": 192,
+          "visible": 2993,
+          "visible_percentage": 27.1992
+        },
+        {
+          "keypoint": "right_ear",
+          "not_labeled": 7748,
+          "occluded": 322,
+          "visible": 2934,
+          "visible_percentage": 26.663
+        },
+        {
+          "keypoint": "left_shoulder",
+          "not_labeled": 5503,
+          "occluded": 489,
+          "visible": 5012,
+          "visible_percentage": 45.5471
+        },
+        {
+          "keypoint": "right_shoulder",
+          "not_labeled": 5509,
+          "occluded": 545,
+          "visible": 4950,
+          "visible_percentage": 44.9836
+        },
+        {
+          "keypoint": "left_elbow",
+          "not_labeled": 6668,
+          "occluded": 537,
+          "visible": 3799,
+          "visible_percentage": 34.5238
+        },
+        {
+          "keypoint": "right_elbow",
+          "not_labeled": 6626,
+          "occluded": 646,
+          "visible": 3732,
+          "visible_percentage": 33.9149
+        },
+        {
+          "keypoint": "left_wrist",
+          "not_labeled": 7059,
+          "occluded": 485,
+          "visible": 3460,
+          "visible_percentage": 31.4431
+        },
+        {
+          "keypoint": "right_wrist",
+          "not_labeled": 6992,
+          "occluded": 489,
+          "visible": 3523,
+          "visible_percentage": 32.0156
+        },
+        {
+          "keypoint": "left_hip",
+          "not_labeled": 6249,
+          "occluded": 968,
+          "visible": 3787,
+          "visible_percentage": 34.4148
+        },
+        {
+          "keypoint": "right_hip",
+          "not_labeled": 6220,
+          "occluded": 1057,
+          "visible": 3727,
+          "visible_percentage": 33.8695
+        },
+        {
+          "keypoint": "left_knee",
+          "not_labeled": 7491,
+          "occluded": 500,
+          "visible": 3013,
+          "visible_percentage": 27.381
+        },
+        {
+          "keypoint": "right_knee",
+          "not_labeled": 7504,
+          "occluded": 501,
+          "visible": 2999,
+          "visible_percentage": 27.2537
+        },
+        {
+          "keypoint": "left_ankle",
+          "not_labeled": 8047,
+          "occluded": 519,
+          "visible": 2438,
+          "visible_percentage": 22.1556
+        },
+        {
+          "keypoint": "right_ankle",
+          "not_labeled": 8062,
+          "occluded": 536,
+          "visible": 2406,
+          "visible_percentage": 21.8648
+        }
+      ],
+      "visible_kps_per_person_stats": {
+        "visible_kps_per_person_count": 11004,
+        "visible_kps_per_person_sum": 59850,
+        "visible_kps_per_person_min": 0,
+        "visible_kps_per_person_max": 17,
+        "visible_kps_per_person_mean": 5.4389,
+        "visible_kps_per_person_median": 4.0,
+        "visible_kps_per_person_std": 5.7565,
+        "visible_kps_per_person_p5": 0.0,
+        "visible_kps_per_person_p25": 0.0,
+        "visible_kps_per_person_p75": 11.0,
+        "visible_kps_per_person_p95": 15.0
+      },
+      "labeled_kps_per_person_stats": {
+        "labeled_kps_per_person_count": 11004,
+        "labeled_kps_per_person_sum": 68215,
+        "labeled_kps_per_person_min": 0,
+        "labeled_kps_per_person_max": 17,
+        "labeled_kps_per_person_mean": 6.1991,
+        "labeled_kps_per_person_median": 5.0,
+        "labeled_kps_per_person_std": 6.2322,
+        "labeled_kps_per_person_p5": 0.0,
+        "labeled_kps_per_person_p25": 0.0,
+        "labeled_kps_per_person_p75": 12.0,
+        "labeled_kps_per_person_p95": 16.0
+      }
+    }
+  },
+  "train_vs_val": {
+    "overview": {
+      "images": {
+        "train": 118287,
+        "val": 5000,
+        "ratio": 23.66
+      },
+      "annotations": {
+        "train": 860001,
+        "val": 36781,
+        "ratio": 23.38
+      },
+      "categories": {
+        "train": 80,
+        "val": 80,
+        "ratio": 1.0
+      },
+      "crowd": {
+        "train": 10052,
+        "val": 446,
+        "ratio": 22.54
+      }
+    },
+    "per_category": [
+      {
+        "category": "person",
+        "train": 262465,
+        "val": 11004,
+        "total": 273469,
+        "train_percentage": 95.9761
+      },
+      {
+        "category": "car",
+        "train": 43867,
+        "val": 1932,
+        "total": 45799,
+        "train_percentage": 95.7816
+      },
+      {
+        "category": "chair",
+        "train": 38491,
+        "val": 1791,
+        "total": 40282,
+        "train_percentage": 95.5538
+      },
+      {
+        "category": "book",
+        "train": 24715,
+        "val": 1161,
+        "total": 25876,
+        "train_percentage": 95.5132
+      },
+      {
+        "category": "bottle",
+        "train": 24342,
+        "val": 1025,
+        "total": 25367,
+        "train_percentage": 95.9593
+      },
+      {
+        "category": "cup",
+        "train": 20650,
+        "val": 899,
+        "total": 21549,
+        "train_percentage": 95.8281
+      },
+      {
+        "category": "dining table",
+        "train": 15714,
+        "val": 697,
+        "total": 16411,
+        "train_percentage": 95.7528
+      },
+      {
+        "category": "bowl",
+        "train": 14358,
+        "val": 626,
+        "total": 14984,
+        "train_percentage": 95.8222
+      },
+      {
+        "category": "traffic light",
+        "train": 12884,
+        "val": 637,
+        "total": 13521,
+        "train_percentage": 95.2888
+      },
+      {
+        "category": "handbag",
+        "train": 12354,
+        "val": 540,
+        "total": 12894,
+        "train_percentage": 95.812
+      },
+      {
+        "category": "umbrella",
+        "train": 11431,
+        "val": 413,
+        "total": 11844,
+        "train_percentage": 96.513
+      },
+      {
+        "category": "bird",
+        "train": 10806,
+        "val": 440,
+        "total": 11246,
+        "train_percentage": 96.0875
+      },
+      {
+        "category": "boat",
+        "train": 10759,
+        "val": 430,
+        "total": 11189,
+        "train_percentage": 96.1569
+      },
+      {
+        "category": "truck",
+        "train": 9973,
+        "val": 415,
+        "total": 10388,
+        "train_percentage": 96.005
+      },
+      {
+        "category": "bench",
+        "train": 9838,
+        "val": 413,
+        "total": 10251,
+        "train_percentage": 95.9711
+      },
+      {
+        "category": "sheep",
+        "train": 9509,
+        "val": 361,
+        "total": 9870,
+        "train_percentage": 96.3425
+      },
+      {
+        "category": "banana",
+        "train": 9458,
+        "val": 379,
+        "total": 9837,
+        "train_percentage": 96.1472
+      },
+      {
+        "category": "kite",
+        "train": 9076,
+        "val": 336,
+        "total": 9412,
+        "train_percentage": 96.4301
+      },
+      {
+        "category": "motorcycle",
+        "train": 8725,
+        "val": 371,
+        "total": 9096,
+        "train_percentage": 95.9213
+      },
+      {
+        "category": "backpack",
+        "train": 8720,
+        "val": 371,
+        "total": 9091,
+        "train_percentage": 95.919
+      },
+      {
+        "category": "potted plant",
+        "train": 8652,
+        "val": 343,
+        "total": 8995,
+        "train_percentage": 96.1868
+      },
+      {
+        "category": "cow",
+        "train": 8147,
+        "val": 380,
+        "total": 8527,
+        "train_percentage": 95.5436
+      },
+      {
+        "category": "wine glass",
+        "train": 7913,
+        "val": 343,
+        "total": 8256,
+        "train_percentage": 95.8454
+      },
+      {
+        "category": "carrot",
+        "train": 7852,
+        "val": 371,
+        "total": 8223,
+        "train_percentage": 95.4883
+      },
+      {
+        "category": "knife",
+        "train": 7770,
+        "val": 326,
+        "total": 8096,
+        "train_percentage": 95.9733
+      },
+      {
+        "category": "broccoli",
+        "train": 7308,
+        "val": 316,
+        "total": 7624,
+        "train_percentage": 95.8552
+      },
+      {
+        "category": "donut",
+        "train": 7179,
+        "val": 338,
+        "total": 7517,
+        "train_percentage": 95.5035
+      },
+      {
+        "category": "bicycle",
+        "train": 7113,
+        "val": 316,
+        "total": 7429,
+        "train_percentage": 95.7464
+      },
+      {
+        "category": "vase",
+        "train": 6613,
+        "val": 277,
+        "total": 6890,
+        "train_percentage": 95.9797
+      },
+      {
+        "category": "skis",
+        "train": 6646,
+        "val": 241,
+        "total": 6887,
+        "train_percentage": 96.5007
+      },
+      {
+        "category": "horse",
+        "train": 6587,
+        "val": 273,
+        "total": 6860,
+        "train_percentage": 96.0204
+      },
+      {
+        "category": "tie",
+        "train": 6496,
+        "val": 254,
+        "total": 6750,
+        "train_percentage": 96.237
+      },
+      {
+        "category": "cell phone",
+        "train": 6434,
+        "val": 262,
+        "total": 6696,
+        "train_percentage": 96.0872
+      },
+      {
+        "category": "orange",
+        "train": 6399,
+        "val": 287,
+        "total": 6686,
+        "train_percentage": 95.7074
+      },
+      {
+        "category": "cake",
+        "train": 6353,
+        "val": 316,
+        "total": 6669,
+        "train_percentage": 95.2617
+      },
+      {
+        "category": "sports ball",
+        "train": 6347,
+        "val": 263,
+        "total": 6610,
+        "train_percentage": 96.0212
+      },
+      {
+        "category": "clock",
+        "train": 6334,
+        "val": 267,
+        "total": 6601,
+        "train_percentage": 95.9552
+      },
+      {
+        "category": "suitcase",
+        "train": 6192,
+        "val": 303,
+        "total": 6495,
+        "train_percentage": 95.3349
+      },
+      {
+        "category": "spoon",
+        "train": 6165,
+        "val": 253,
+        "total": 6418,
+        "train_percentage": 96.058
+      },
+      {
+        "category": "surfboard",
+        "train": 6126,
+        "val": 269,
+        "total": 6395,
+        "train_percentage": 95.7936
+      },
+      {
+        "category": "bus",
+        "train": 6069,
+        "val": 285,
+        "total": 6354,
+        "train_percentage": 95.5146
+      },
+      {
+        "category": "pizza",
+        "train": 5821,
+        "val": 285,
+        "total": 6106,
+        "train_percentage": 95.3325
+      },
+      {
+        "category": "tv",
+        "train": 5805,
+        "val": 288,
+        "total": 6093,
+        "train_percentage": 95.2733
+      },
+      {
+        "category": "apple",
+        "train": 5851,
+        "val": 239,
+        "total": 6090,
+        "train_percentage": 96.0755
+      },
+      {
+        "category": "couch",
+        "train": 5779,
+        "val": 261,
+        "total": 6040,
+        "train_percentage": 95.6788
+      },
+      {
+        "category": "remote",
+        "train": 5703,
+        "val": 283,
+        "total": 5986,
+        "train_percentage": 95.2723
+      },
+      {
+        "category": "sink",
+        "train": 5610,
+        "val": 225,
+        "total": 5835,
+        "train_percentage": 96.144
+      },
+      {
+        "category": "elephant",
+        "train": 5513,
+        "val": 255,
+        "total": 5768,
+        "train_percentage": 95.5791
+      },
+      {
+        "category": "dog",
+        "train": 5508,
+        "val": 218,
+        "total": 5726,
+        "train_percentage": 96.1928
+      },
+      {
+        "category": "skateboard",
+        "train": 5543,
+        "val": 179,
+        "total": 5722,
+        "train_percentage": 96.8717
+      },
+      {
+        "category": "fork",
+        "train": 5479,
+        "val": 215,
+        "total": 5694,
+        "train_percentage": 96.2241
+      },
+      {
+        "category": "zebra",
+        "train": 5303,
+        "val": 268,
+        "total": 5571,
+        "train_percentage": 95.1894
+      },
+      {
+        "category": "giraffe",
+        "train": 5131,
+        "val": 232,
+        "total": 5363,
+        "train_percentage": 95.6741
+      },
+      {
+        "category": "airplane",
+        "train": 5135,
+        "val": 143,
+        "total": 5278,
+        "train_percentage": 97.2906
+      },
+      {
+        "category": "laptop",
+        "train": 4970,
+        "val": 231,
+        "total": 5201,
+        "train_percentage": 95.5585
+      },
+      {
+        "category": "tennis racket",
+        "train": 4812,
+        "val": 225,
+        "total": 5037,
+        "train_percentage": 95.5331
+      },
+      {
+        "category": "teddy bear",
+        "train": 4793,
+        "val": 191,
+        "total": 4984,
+        "train_percentage": 96.1677
+      },
+      {
+        "category": "cat",
+        "train": 4768,
+        "val": 202,
+        "total": 4970,
+        "train_percentage": 95.9356
+      },
+      {
+        "category": "train",
+        "train": 4571,
+        "val": 190,
+        "total": 4761,
+        "train_percentage": 96.0092
+      },
+      {
+        "category": "sandwich",
+        "train": 4373,
+        "val": 177,
+        "total": 4550,
+        "train_percentage": 96.1099
+      },
+      {
+        "category": "bed",
+        "train": 4192,
+        "val": 163,
+        "total": 4355,
+        "train_percentage": 96.2572
+      },
+      {
+        "category": "toilet",
+        "train": 4157,
+        "val": 179,
+        "total": 4336,
+        "train_percentage": 95.8718
+      },
+      {
+        "category": "baseball glove",
+        "train": 3747,
+        "val": 148,
+        "total": 3895,
+        "train_percentage": 96.2003
+      },
+      {
+        "category": "oven",
+        "train": 3334,
+        "val": 143,
+        "total": 3477,
+        "train_percentage": 95.8873
+      },
+      {
+        "category": "baseball bat",
+        "train": 3276,
+        "val": 146,
+        "total": 3422,
+        "train_percentage": 95.7335
+      },
+      {
+        "category": "hot dog",
+        "train": 2918,
+        "val": 127,
+        "total": 3045,
+        "train_percentage": 95.8292
+      },
+      {
+        "category": "keyboard",
+        "train": 2855,
+        "val": 153,
+        "total": 3008,
+        "train_percentage": 94.9136
+      },
+      {
+        "category": "frisbee",
+        "train": 2682,
+        "val": 115,
+        "total": 2797,
+        "train_percentage": 95.8885
+      },
+      {
+        "category": "refrigerator",
+        "train": 2637,
+        "val": 126,
+        "total": 2763,
+        "train_percentage": 95.4397
+      },
+      {
+        "category": "snowboard",
+        "train": 2685,
+        "val": 69,
+        "total": 2754,
+        "train_percentage": 97.4946
+      },
+      {
+        "category": "mouse",
+        "train": 2262,
+        "val": 106,
+        "total": 2368,
+        "train_percentage": 95.5236
+      },
+      {
+        "category": "stop sign",
+        "train": 1983,
+        "val": 75,
+        "total": 2058,
+        "train_percentage": 96.3557
+      },
+      {
+        "category": "toothbrush",
+        "train": 1954,
+        "val": 57,
+        "total": 2011,
+        "train_percentage": 97.1656
+      },
+      {
+        "category": "fire hydrant",
+        "train": 1865,
+        "val": 101,
+        "total": 1966,
+        "train_percentage": 94.8627
+      },
+      {
+        "category": "microwave",
+        "train": 1673,
+        "val": 55,
+        "total": 1728,
+        "train_percentage": 96.8171
+      },
+      {
+        "category": "scissors",
+        "train": 1481,
+        "val": 36,
+        "total": 1517,
+        "train_percentage": 97.6269
+      },
+      {
+        "category": "bear",
+        "train": 1294,
+        "val": 71,
+        "total": 1365,
+        "train_percentage": 94.7985
+      },
+      {
+        "category": "parking meter",
+        "train": 1285,
+        "val": 60,
+        "total": 1345,
+        "train_percentage": 95.539
+      },
+      {
+        "category": "toaster",
+        "train": 225,
+        "val": 9,
+        "total": 234,
+        "train_percentage": 96.1538
+      },
+      {
+        "category": "hair drier",
+        "train": 198,
+        "val": 11,
+        "total": 209,
+        "train_percentage": 94.7368
+      }
+    ],
+    "size_distribution": {
+      "small": {
+        "train": 356340,
+        "val": 15315
+      },
+      "medium": {
+        "train": 295163,
+        "val": 12569
+      },
+      "large": {
+        "train": 208498,
+        "val": 8897
+      }
+    }
+  },
+  "summary": {
+    "total_images": 123287,
+    "total_instance_annotations": 896782,
+    "total_categories": 80,
+    "annotation_types": [
+      "instances_train",
+      "instances_val",
+      "captions_train",
+      "captions_val",
+      "keypoints_train",
+      "keypoints_val"
+    ]
+  }
+}

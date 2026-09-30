@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=0 python evaluate_ood.py \
+  --model_folder "ckpts/swin_l_1dl_rba_ood_map_coco" \
+  --image_dir "/home/azureuser/Documents/Research Model testing/Research Paper No 3/dir 2" \
+  --out_path "./outputs_rba_swin_l_2"
