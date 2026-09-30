@@ -1,0 +1,74 @@
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.311
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.532
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.635
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.369
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.581
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.648
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.752
+per class AP:
+| class         | AP     | class        | AP     | class          | AP     |
+|:--------------|:-------|:-------------|:-------|:---------------|:-------|
+| person        | 61.618 | bicycle      | 37.547 | car            | 58.494 |
+| motorcycle    | 51.265 | airplane     | 73.783 | bus            | 74.632 |
+| train         | 71.065 | truck        | 53.815 | boat           | 30.934 |
+| traffic light | 43.080 | fire hydrant | 75.738 | stop sign      | 75.843 |
+| parking meter | 51.456 | bench        | 37.430 | bird           | 41.997 |
+| cat           | 74.731 | dog          | 67.190 | horse          | 67.541 |
+| sheep         | 59.677 | cow          | 63.133 | elephant       | 71.051 |
+| bear          | 79.689 | zebra        | 74.188 | giraffe        | 76.406 |
+| backpack      | 20.183 | umbrella     | 47.879 | handbag        | 20.090 |
+| tie           | 43.556 | suitcase     | 48.253 | frisbee        | 69.678 |
+| skis          | 33.713 | snowboard    | 41.683 | sports ball    | 50.590 |
+| kite          | 51.097 | baseball bat | 39.119 | baseball glove | 41.565 |
+| skateboard    | 62.194 | surfboard    | 45.487 | tennis racket  | 59.014 |
+| bottle        | 42.903 | wine glass   | 41.440 | cup            | 48.639 |
+| fork          | 49.134 | knife        | 26.992 | spoon          | 26.324 |
+| bowl          | 46.760 | banana       | 28.472 | apple          | 19.796 |
+| sandwich      | 35.887 | orange       | 31.618 | broccoli       | 24.728 |
+| carrot        | 27.921 | hot dog      | 43.810 | pizza          | 59.750 |
+| donut         | 50.739 | cake         | 43.368 | chair          | 38.982 |
+| couch         | 49.349 | potted plant | 30.830 | bed            | 49.074 |
+| dining table  | 30.917 | toilet       | 64.619 | tv             | 61.952 |
+| laptop        | 68.424 | mouse        | 64.775 | remote         | 43.296 |
+| keyboard      | 56.172 | cell phone   | 44.216 | microwave      | 69.574 |
+| oven          | 43.304 | toaster      | 28.361 | sink           | 43.081 |
+| refrigerator  | 62.442 | book         | 16.598 | clock          | 52.497 |
+| vase          | 41.479 | scissors     | 34.524 | teddy bear     | 52.537 |
+| hair drier    | 10.184 | toothbrush   | 29.280 | traffic_cone   | 78.623 |
+per class AR:
+| class         | AR     | class        | AR     | class          | AR     |
+|:--------------|:-------|:-------------|:-------|:---------------|:-------|
+| person        | 69.040 | bicycle      | 48.991 | car            | 68.565 |
+| motorcycle    | 61.818 | airplane     | 78.940 | bus            | 80.057 |
+| train         | 76.458 | truck        | 72.616 | boat           | 46.776 |
+| traffic light | 56.576 | fire hydrant | 80.800 | stop sign      | 82.424 |
+| parking meter | 58.209 | bench        | 50.837 | bird           | 49.813 |
+| cat           | 81.610 | dog          | 73.822 | horse          | 73.787 |
+| sheep         | 68.535 | cow          | 69.597 | elephant       | 80.000 |
+| bear          | 84.247 | zebra        | 79.963 | giraffe        | 82.185 |
+| backpack      | 42.727 | umbrella     | 59.461 | handbag        | 38.619 |
+| tie           | 52.227 | suitcase     | 60.795 | frisbee        | 74.783 |
+| skis          | 46.307 | snowboard    | 49.130 | sports ball    | 54.808 |
+| kite          | 64.789 | baseball bat | 53.014 | baseball glove | 51.007 |
+| skateboard    | 67.747 | surfboard    | 53.493 | tennis racket  | 67.168 |
+| bottle        | 58.010 | wine glass   | 51.105 | cup            | 61.947 |
+| fork          | 60.507 | knife        | 45.583 | spoon          | 44.922 |
+| bowl          | 62.536 | banana       | 46.927 | apple          | 42.437 |
+| sandwich      | 57.389 | orange       | 54.316 | broccoli       | 51.250 |
+| carrot        | 49.370 | hot dog      | 53.228 | pizza          | 70.455 |
+| donut         | 65.762 | cake         | 56.433 | chair          | 55.298 |
+| couch         | 65.840 | potted plant | 50.197 | bed            | 62.393 |
+| dining table  | 52.368 | toilet       | 75.495 | tv             | 71.678 |
+| laptop        | 75.447 | mouse        | 72.963 | remote         | 57.527 |
+| keyboard      | 68.846 | cell phone   | 56.618 | microwave      | 76.000 |
+| oven          | 61.399 | toaster      | 43.333 | sink           | 56.872 |
+| refrigerator  | 70.000 | book         | 40.292 | clock          | 61.791 |
+| vase          | 58.841 | scissors     | 42.051 | teddy bear     | 63.842 |
+| hair drier    | 12.727 | toothbrush   | 46.034 | traffic_cone   | 81.382 |
+
+2026-08-20 13:24:43 | INFO     | yolox.core.trainer:402 - Save weights to ./YOLOX_outputs/yolox_l_traffic_cone
+2026-08-20 13:24:45 | INFO     | yolox.core.trainer:402 - Save weights to ./YOLOX_outputs/yolox_l_traffic_cone
+2026-08-20 13:24:45 | INFO     | yolox.core.trainer:200 - Training of experiment is done and the best AP is 50.43

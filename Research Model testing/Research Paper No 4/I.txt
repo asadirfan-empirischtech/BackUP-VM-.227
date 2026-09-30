@@ -1,0 +1,2 @@
+cd "/home/azureuser/Documents/Research Model testing/Research Paper No 4/TwinLiteNet"
+python test_image.py --image_dir "/home/azureuser/Documents/Research Model testing/Research Paper No 4/dir 3" --output_dir "./results_3" --weights "pretrained/best.pth"

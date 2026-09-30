@@ -1,0 +1,11 @@
+--- Original Prompt ---
+First-person dashcam perspective from a vehicle traveling on a wet, winding mountain highway during heavy rain. Suddenly, a massive landslide cascades down the steep rocky slope on the right side of the frame, sending huge boulders, dark mud, and uprooted pine trees crashing violently across the asphalt road.
+
+--- Upsampled Prompt ---
+**Enhanced Prompt:**
+
+"Experience a heart-pounding, first-person dashcam perspective from the driver's seat of a vehicle navigating a treacherous, winding mountain highway during a relentless thunderstorm. The windshield wipers rhythmically dance against the deluge, as your headlights pierce through the dense rain, illuminating the glistening, slick asphalt and the blurred, shadowy pine trees lining the steep, rocky slopes.
+
+The air is thick with the scent of wet earth and the distant rumble of thunder, as you grip the steering wheel tightly, feeling every slippery turn. Suddenly, a deafening roar fills the air, and a colossal landslide erupts from the right, its dark, churning mass of boulders, uprooted trees, and mud cascading down the steep slope like a tidal wave. The ground trembles, and the vehicle is tossed like a toy as you struggle to maintain control.
+
+The camera shakes violently as debris hurls across the road, narrowly missing the car, while your heart races in sync with the desperate maneuvers to avoid the relentless onslaught. The world is a chaotic symphony of darkness, rain, and the thunderous roar of the landslide, testing your nerves and reflexes in this unforgiving test of survival."

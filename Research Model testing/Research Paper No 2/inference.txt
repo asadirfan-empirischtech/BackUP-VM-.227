@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python eval.py --ood_dataset_path "/home/azureuser/Documents/Research Model testing/Research Paper No 2/dir"
