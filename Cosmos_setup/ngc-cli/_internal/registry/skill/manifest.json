@@ -1,0 +1,11 @@
+{
+  "manifest_version": "0.1",
+  "skills": [
+    {
+      "name": "registry",
+      "version": "1.0.3",
+      "description": "Reference for NGC CLI registry commands.",
+      "compatible_cli": ">=4.5.3"
+    }
+  ]
+}
